@@ -1,38 +1,39 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:08080d,40:171324,100:6e5cff&text=eclipz&fontColor=f4f1ff&fontSize=62&fontAlignY=38&desc=building%20things%20on%20the%20internet&descAlignY=60&descSize=18&animation=fadeIn" />
+<img width="100%" src="./assets/eclipz-ascii-banner.svg" alt="eclipz ASCII hands banner" />
 
-<a href="https://github.com/EclipZexe">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&pause=1200&color=B9AEFF&center=true&vCenter=true&width=700&lines=developer+%E2%80%A2+creator+%E2%80%A2+builder;python+%7C+web+%7C+automation+%7C+ui;turning+random+ideas+into+real+projects" alt="Typing SVG" />
-</a>
+<br>
+
+# eclipz
+
+`developer • creator • builder`
+
+<sub>turning random ideas into things that actually exist.</sub>
+
+<br><br>
+
+<a href="https://github.com/EclipZexe?tab=repositories"><img src="https://img.shields.io/badge/projects-111116?style=flat-square&logo=github&logoColor=b9aeff&labelColor=111116&color=111116" /></a>
+<a href="https://github.com/EclipZexe/portfolio"><img src="https://img.shields.io/badge/portfolio-111116?style=flat-square&logo=vercel&logoColor=b9aeff&labelColor=111116&color=111116" /></a>
+<img src="https://komarev.com/ghpvc/?username=EclipZexe&label=views&color=6e5cff&style=flat-square" />
 
 </div>
 
 ---
 
-## 👋 About Me
+## `01 / about`
 
 <table>
 <tr>
-<td width="62%" valign="top">
+<td width="60%" valign="top">
 
 I'm **eclipz**, a developer from **Guadeloupe**.
 
-I like building things that feel personal — websites, automation tools, interfaces, bots, AI experiments, and random ideas that somehow turn into full projects.
+I build websites, automation tools, bots, desktop experiments and AI-powered projects. Most of them start as something I want for myself and slowly become much bigger than planned.
 
-Right now I'm mostly focused on:
-
-- web development
-- Python & automation
-- UI / UX
-- desktop customization
-- AI-powered tools
-- building **eclipz.dev**
-
-> most of my projects start with *"this would be cool"* and get out of hand from there.
+Right now I'm focused on making things that feel **useful, personal and visually different** instead of just shipping another generic app.
 
 </td>
-<td width="38%" align="center">
+<td width="40%" valign="top">
 
 ```js
 const eclipz = {
@@ -42,7 +43,7 @@ const eclipz = {
     "web",
     "python",
     "automation",
-    "ui",
+    "ui / ux",
     "ai"
   ]
 }
@@ -54,62 +55,44 @@ const eclipz = {
 
 ---
 
-## 🤝 Connect
+## `02 / stack`
 
 <div align="center">
 
-<a href="https://github.com/EclipZexe">
-  <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-<a href="https://github.com/EclipZexe?tab=repositories">
-  <img src="https://img.shields.io/badge/Projects-15101f?style=for-the-badge&logo=githubsponsors&logoColor=b9aeff" />
-</a>
-<a href="https://github.com/EclipZexe/portfolio">
-  <img src="https://img.shields.io/badge/Portfolio-15101f?style=for-the-badge&logo=vercel&logoColor=b9aeff" />
-</a>
+<img src="https://skillicons.dev/icons?i=py,js,ts,html,css,nodejs,git,github,vscode,windows,discord&theme=dark" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+`python` · `javascript` · `typescript` · `html` · `css` · `node.js` · `git`
 
 </div>
 
 ---
 
-## 💻 Tech Stack
-
-<div align="center">
-
-### Languages
-
-<img src="https://skillicons.dev/icons?i=py,js,ts,html,css&theme=dark" />
-
-### Tools & Platforms
-
-<img src="https://skillicons.dev/icons?i=nodejs,git,github,vscode,windows,discord&theme=dark" />
-
-</div>
-
----
-
-## 🚀 Selected Projects
+## `03 / selected work`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🌐 [portfolio](https://github.com/EclipZexe/portfolio)
+### [portfolio](https://github.com/EclipZexe/portfolio)
 
 My personal corner of the internet.
 
-A portfolio built around projects, music, a guest wall, interactive visuals, and whatever else I decide to add.
+Interactive visuals, project showcases, music stats, a guest wall and whatever else gets added next.
 
 `web` `design` `experiments`
 
 </td>
 <td width="50%" valign="top">
 
-### 🌙 [Vesper](https://github.com/EclipZexe/Vesper)
+### [Vesper](https://github.com/EclipZexe/Vesper)
 
-One of my ongoing projects.
-
-Built to evolve over time instead of staying as a one-off experiment.
+An ongoing project built to evolve instead of staying a one-off experiment.
 
 `development` `experiments`
 
@@ -118,18 +101,18 @@ Built to evolve over time instead of staying as a one-off experiment.
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 [botty](https://github.com/EclipZexe/botty)
+### [botty](https://github.com/EclipZexe/botty)
 
-An all-in-one Discord bot project with verification, moderation, themed server templates, and a web dashboard.
+An all-in-one Discord bot project with verification, moderation, themed server templates and a web dashboard.
 
 `discord` `automation` `bots`
 
 </td>
 <td width="50%" valign="top">
 
-### 🧪 experiments
+### experiments
 
-Small tools, weird interfaces, half-serious ideas and projects that don't need their own category yet.
+Small tools, unfinished ideas and weird interfaces that don't need their own category yet.
 
 `whatever looks interesting`
 
@@ -139,55 +122,46 @@ Small tools, weird interfaces, half-serious ideas and projects that don't need t
 
 ---
 
-## 📊 GitHub Stats
+## `04 / github`
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=EclipZexe&show_icons=true&hide_border=true&bg_color=0d111700&title_color=b9aeff&text_color=c9c7d1&icon_color=8f7cff&ring_color=8f7cff" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=EclipZexe&show_icons=true&hide_border=true&bg_color=050507&title_color=b9aeff&text_color=b9b6c4&icon_color=8f7cff&ring_color=8f7cff&rank_icon=github" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EclipZexe&layout=compact&hide_border=true&bg_color=050507&title_color=b9aeff&text_color=b9b6c4" />
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EclipZexe&layout=compact&hide_border=true&bg_color=0d111700&title_color=b9aeff&text_color=c9c7d1" />
+<br>
 
-</div>
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=EclipZexe&theme=transparent&hide_border=true&ring=8F7CFF&fire=B9AEFF&currStreakLabel=B9AEFF&sideLabels=C9C7D1&dates=777583&sideNums=F2EFFF&currStreakNum=F2EFFF" />
+<img src="https://streak-stats.demolab.com?user=EclipZexe&theme=transparent&hide_border=true&background=050507&ring=8F7CFF&fire=B9AEFF&currStreakLabel=B9AEFF&sideLabels=B9B6C4&dates=6B6875&sideNums=F2EFFF&currStreakNum=F2EFFF" />
 
 </div>
 
 ---
 
-## 📈 Activity
+## `05 / activity`
 
 <div align="center">
 
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=EclipZexe&bg_color=00000000&color=b9aeff&line=8f7cff&point=f2efff&area=true&area_color=6e5cff&hide_border=true" />
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=EclipZexe&bg_color=050507&color=b9b6c4&line=8f7cff&point=f2efff&area=true&area_color=33295e&hide_border=true&custom_title=contribution%20activity" />
 
 </div>
 
 ---
 
-## 🧠 Currently
+## `06 / currently`
 
 ```txt
-learning     ███████░░░  always
-building     █████████░  too much
+building     █████████░  probably too much
+learning     ████████░░  always
 sleeping     ██░░░░░░░░  questionable
 ideas        ██████████  unlimited
 ```
 
 <div align="center">
 
-### `made from guadeloupe`
-
-<sub>still figuring things out. still building anyway.</sub>
+<sub>`made from guadeloupe`</sub>
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=EclipZexe&label=profile%20views&color=6e5cff&style=flat-square" />
-
-<br>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:08080d,40:171324,100:6e5cff" />
+`build / learn / create / repeat`
 
 </div>
