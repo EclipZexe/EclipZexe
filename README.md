@@ -5,15 +5,15 @@
 <br>
 
 <a href="https://readme-typing-svg.demolab.com/demo/">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=B9AEFF&center=true&vCenter=true&width=760&lines=Gabriel+%2F+3clipz+%E2%80%94+pronounced+eclipse;developer+%E2%80%A2+PC+enthusiast+%E2%80%A2+builder;software%2C+hardware%2C+and+ideas+worth+making" alt="Gabriel / 3clipz — developer and PC enthusiast" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=A6D7F4&center=true&vCenter=true&width=760&lines=Gabriel+%2F+3clipz+%E2%80%94+pronounced+eclipse;developer+%E2%80%A2+PC+enthusiast+%E2%80%A2+builder;software%2C+hardware%2C+and+ideas+worth+making" alt="Gabriel / 3clipz — developer and PC enthusiast" />
 </a>
 
 <br><br>
 
-<a href="https://eclipz.dev"><img src="https://img.shields.io/badge/website-eclipz.dev-0b0b10?style=for-the-badge&logo=googlechrome&logoColor=b9aeff" alt="Website eclipz.dev" /></a>
-<a href="mailto:hello@eclipz.dev"><img src="https://img.shields.io/badge/email-say_hello-0b0b10?style=for-the-badge&logo=gmail&logoColor=b9aeff" alt="Email hello@eclipz.dev" /></a>
-<a href="https://github.com/EclipZexe?tab=repositories"><img src="https://img.shields.io/badge/github-explore_projects-0b0b10?style=for-the-badge&logo=github&logoColor=b9aeff" alt="Explore my GitHub repositories" /></a>
-<img src="https://komarev.com/ghpvc/?username=EclipZexe&label=profile+views&color=6e5cff&style=for-the-badge" alt="Profile views" />
+<a href="https://eclipz.dev"><img src="https://img.shields.io/badge/website-eclipz.dev-0a0c0f?style=for-the-badge&logo=googlechrome&logoColor=a6d7f4" alt="Website eclipz.dev" /></a>
+<a href="mailto:hello@eclipz.dev"><img src="https://img.shields.io/badge/email-say_hello-0a0c0f?style=for-the-badge&logo=gmail&logoColor=a6d7f4" alt="Email hello@eclipz.dev" /></a>
+<a href="https://github.com/EclipZexe?tab=repositories"><img src="https://img.shields.io/badge/github-explore_projects-0a0c0f?style=for-the-badge&logo=github&logoColor=a6d7f4" alt="Explore my GitHub repositories" /></a>
+<img src="https://komarev.com/ghpvc/?username=EclipZexe&label=profile+views&color=4e85bf&style=for-the-badge" alt="Profile views" />
 
 </div>
 
@@ -98,10 +98,10 @@ const threeClipz = {
 
 <br><br>
 
-<img src="https://img.shields.io/badge/PC_building-0b0b10?style=flat-square&logo=pcgamingwiki&logoColor=b9aeff" alt="PC building" />
-<img src="https://img.shields.io/badge/Troubleshooting-0b0b10?style=flat-square&logo=ifixit&logoColor=b9aeff" alt="Troubleshooting" />
-<img src="https://img.shields.io/badge/UI%2FUX-0b0b10?style=flat-square&logo=figma&logoColor=b9aeff" alt="UI and UX" />
-<img src="https://img.shields.io/badge/Automation-0b0b10?style=flat-square&logo=githubactions&logoColor=b9aeff" alt="Automation" />
+<img src="https://img.shields.io/badge/PC_building-0a0c0f?style=flat-square&logo=pcgamingwiki&logoColor=a6d7f4" alt="PC building" />
+<img src="https://img.shields.io/badge/Troubleshooting-0a0c0f?style=flat-square&logo=ifixit&logoColor=a6d7f4" alt="Troubleshooting" />
+<img src="https://img.shields.io/badge/UI%2FUX-0a0c0f?style=flat-square&logo=figma&logoColor=a6d7f4" alt="UI and UX" />
+<img src="https://img.shields.io/badge/Automation-0a0c0f?style=flat-square&logo=githubactions&logoColor=a6d7f4" alt="Automation" />
 
 <br>
 
@@ -163,7 +163,7 @@ The home for my identity and work online—designed to grow alongside the projec
 <div align="center">
 
 <a href="https://discord.com/users/1158438108262572052">
-  <img src="https://lanyard.cnrad.dev/api/1158438108262572052?theme=dark&bg=0b0b10&borderRadius=12px&idleMessage=probably%20building%20something" alt="My live Discord presence — click to open my Discord profile" />
+  <img src="https://lanyard.cnrad.dev/api/1158438108262572052?theme=dark&bg=0a0c0f&borderRadius=12px&idleMessage=probably%20building%20something" alt="My live Discord presence — click to open my Discord profile" />
 </a>
 
 <br>
@@ -178,13 +178,13 @@ The home for my identity and work online—designed to grow alongside the projec
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=EclipZexe&show_icons=true&hide_border=true&bg_color=050507&title_color=b9aeff&text_color=c8c5d1&icon_color=8f7cff&ring_color=8f7cff&rank_icon=github" alt="GitHub overview stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=EclipZexe&show_icons=true&hide_border=true&bg_color=090a0d&title_color=a6d7f4&text_color=c3d0d9&icon_color=5b91bc&ring_color=5b91bc&rank_icon=github" alt="GitHub overview stats" />
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EclipZexe&layout=compact&hide_border=true&bg_color=050507&title_color=b9aeff&text_color=c8c5d1" alt="Most used languages" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EclipZexe&layout=compact&hide_border=true&bg_color=090a0d&title_color=a6d7f4&text_color=c3d0d9" alt="Most used languages" />
 
 <br>
 
-<img src="https://streak-stats.demolab.com?user=EclipZexe&theme=transparent&hide_border=true&background=050507&ring=8F7CFF&fire=B9AEFF&currStreakLabel=B9AEFF&sideLabels=C8C5D1&dates=716D7D&sideNums=F2EFFF&currStreakNum=F2EFFF" alt="GitHub contribution streak" />
+<img src="https://streak-stats.demolab.com?user=EclipZexe&theme=transparent&hide_border=true&background=090a0d&ring=8DBFDF&fire=A6D7F4&currStreakLabel=A6D7F4&sideLabels=C3D0D9&dates=71808E&sideNums=EDF7FF&currStreakNum=EDF7FF" alt="GitHub contribution streak" />
 
 </div>
 
@@ -194,7 +194,7 @@ The home for my identity and work online—designed to grow alongside the projec
 
 <div align="center">
 
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=EclipZexe&bg_color=050507&color=c8c5d1&line=8f7cff&point=f2efff&area=true&area_color=30275a&hide_border=true&custom_title=activity%20%2F%2F%20last%2012%20months" alt="GitHub contribution activity graph" />
+<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=EclipZexe&bg_color=090a0d&color=c3d0d9&line=5b91bc&point=f2efff&area=true&area_color=294355&hide_border=true&custom_title=activity%20%2F%2F%20last%2012%20months" alt="GitHub contribution activity graph" />
 
 </div>
 
