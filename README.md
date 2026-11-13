@@ -1,224 +1,159 @@
 <div align="center">
 
-<img width="100%" src="./assets/eclipz-animated-banner.svg" alt="EclipZ animated banner" />
-
-<br>
-
-<a href="https://readme-typing-svg.demolab.com/demo/">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=A6D7F4&center=true&vCenter=true&width=760&lines=Gabriel+%2F+3clipz+%E2%80%94+pronounced+eclipse;developer+%E2%80%A2+PC+enthusiast+%E2%80%A2+builder;software%2C+hardware%2C+and+ideas+worth+making" alt="Gabriel / 3clipz — developer and PC enthusiast" />
-</a>
+<a href="https://eclipz.dev"><img width="100%" src="./assets/eclipz-terminal-banner.svg" alt="eclipz — animated ASCII banner" /></a>
 
 <br><br>
 
-<a href="https://eclipz.dev"><img src="https://img.shields.io/badge/website-eclipz.dev-0a0c0f?style=for-the-badge&logo=googlechrome&logoColor=a6d7f4" alt="Website eclipz.dev" /></a>
-<a href="mailto:hello@eclipz.dev"><img src="https://img.shields.io/badge/email-say_hello-0a0c0f?style=for-the-badge&logo=gmail&logoColor=a6d7f4" alt="Email hello@eclipz.dev" /></a>
-<a href="https://github.com/EclipZexe?tab=repositories"><img src="https://img.shields.io/badge/github-explore_projects-0a0c0f?style=for-the-badge&logo=github&logoColor=a6d7f4" alt="Explore my GitHub repositories" /></a>
-<img src="https://komarev.com/ghpvc/?username=EclipZexe&label=profile+views&color=4e85bf&style=for-the-badge" alt="Profile views" />
+<a href="https://eclipz.dev"><img src="https://img.shields.io/badge/website-eclipz.dev-0a0c0f?style=for-the-badge&logo=googlechrome&logoColor=a6d7f4" alt="Website: eclipz.dev" /></a>
+<a href="mailto:hello@eclipz.dev"><img src="https://img.shields.io/badge/email-say_hello-0a0c0f?style=for-the-badge&logo=gmail&logoColor=a6d7f4" alt="Email: hello@eclipz.dev" /></a>
+<a href="https://discord.com/users/1158438108262572052"><img src="https://img.shields.io/badge/discord-3clipz-0a0c0f?style=for-the-badge&logo=discord&logoColor=a6d7f4" alt="Discord profile" /></a>
+<img src="https://komarev.com/ghpvc/?username=EclipZexe&label=profile+views&color=0a0c0f&style=for-the-badge" alt="Profile views" />
 
 </div>
 
 <br>
 
-## 01 / ABOUT ME
+## ▍ about
 
 <table>
 <tr>
-<td width="62%" valign="top">
+<td width="58%" valign="top">
 
-### Hey, I'm Gabriel — online as **3clipz**.
+### Hey, I'm Gabriel, online as **3clipz**.
 
-*3clipz* is pronounced **“eclipse.”** I’m a developer and computer enthusiast from **Guadeloupe**, building under the EclipZ name.
+*3clipz* is pronounced **"eclipse"**. I'm a developer and PC enthusiast building under the **EclipZ** name.
 
-I like making digital things feel intentional: websites, dashboards, Discord bots, automation, and interfaces with personality. I’m just as curious about what’s inside a computer as what’s on the screen.
+I like making digital things feel intentional: websites, dashboards, Discord bots, automation, and interfaces with personality. I'm just as curious about what's **inside** the computer as what's on the screen, so when I'm not writing code I'm building, cleaning, troubleshooting and repairing PCs.
 
-When I’m not building software, I’m usually interested in **PC building, cleaning, troubleshooting, maintenance, and repair**. I enjoy watching satisfying PC-cleaning videos and figuring out how the parts fit together—and how to get better at building and fixing systems myself.
-
-My rule: **build it, understand it, improve it, repeat.**
+> **build it → understand it → improve it → repeat**
 
 </td>
-<td width="38%" valign="top">
+<td width="42%" valign="top">
 
-~~~js
+```js
 const threeClipz = {
   name: "Gabriel",
-  alias: "3clipz",
-  pronunciation: "eclipse",
-  home: "Guadeloupe",
+  alias: "3clipz",       // say "eclipse"
+  site: "eclipz.dev",
+  building: ["Helix", "eclipz.dev", "Botty"],
   interests: [
     "software development",
-    "PC building",
-    "PC repair",
-    "UI and design",
-    "Discord tools"
+    "UI and motion design",
+    "PC building & repair",
+    "Discord tools",
   ],
-  mindset: "always learning"
+  mindset: "always learning",
 };
-~~~
+```
 
 </td>
 </tr>
 </table>
 
----
-
-## 02 / WHAT I'M INTO
+## ▍ projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Software & digital products
+### [eclipz.dev ↗](https://eclipz.dev)
+My corner of the internet: interactive visuals, live music stats, a guest wall, weather, and whatever I'm into right now. Hand-built static site, no framework.
 
-- Personal websites and interactive experiences
-- Dashboards, tools, and automation
-- Discord bots and integrations
-- UI/UX, design systems, and desktop concepts
+`web` `interaction` `motion`
 
 </td>
 <td width="50%" valign="top">
 
-### PCs & hardware
+### Helix
+A performance-first personal desktop browser built on Firefox's Gecko engine, with built-in ad blocking, Chrome Web Store support and a calm 3D homepage. *Private, in progress.*
 
-- Learning PC component compatibility
-- Building, maintaining, and troubleshooting systems
-- PC cleaning and repair
-- Understanding how to make a setup cleaner, smarter, and more reliable
+`gecko` `desktop` `performance`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Botty ↗](https://github.com/EclipZexe/botty)
+An all-in-one Discord bot: tiered join verification, moderation, themed server templates and a web dashboard.
+
+`discord` `automation` `product`
+
+</td>
+<td width="50%" valign="top">
+
+### [Vesper ↗](https://github.com/EclipZexe/Vesper)
+A reference write-up on Claude Code: core capabilities, the extensibility model, and how the tool is evolving.
+
+`docs` `research` `ai tooling`
 
 </td>
 </tr>
 </table>
 
----
+## ▍ what I'm into
 
-## 03 / TOOLBOX
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**software**
+- personal websites and interactive experiences
+- dashboards, tools and automation
+- Discord bots and integrations
+- UI/UX, design systems and desktop concepts
+
+</td>
+<td width="50%" valign="top">
+
+**hardware**
+- PC component compatibility
+- building, maintaining and troubleshooting systems
+- cleaning and repair
+- making a setup cleaner, quieter and more reliable
+
+</td>
+</tr>
+</table>
+
+## ▍ toolbox
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,js,ts,html,css,nodejs,git,github,vscode,windows,discord&theme=dark" alt="Technologies and tools I explore" />
+<img src="https://skillicons.dev/icons?i=py,js,ts,html,css,nodejs,git,github,vscode,windows,discord&theme=dark" alt="Python, JavaScript, TypeScript, HTML, CSS, Node.js, Git, GitHub, VS Code, Windows, Discord" />
 
 <br><br>
 
 <img src="https://img.shields.io/badge/PC_building-0a0c0f?style=flat-square&logo=pcgamingwiki&logoColor=a6d7f4" alt="PC building" />
-<img src="https://img.shields.io/badge/Troubleshooting-0a0c0f?style=flat-square&logo=ifixit&logoColor=a6d7f4" alt="Troubleshooting" />
+<img src="https://img.shields.io/badge/troubleshooting-0a0c0f?style=flat-square&logo=ifixit&logoColor=a6d7f4" alt="Troubleshooting" />
 <img src="https://img.shields.io/badge/UI%2FUX-0a0c0f?style=flat-square&logo=figma&logoColor=a6d7f4" alt="UI and UX" />
-<img src="https://img.shields.io/badge/Automation-0a0c0f?style=flat-square&logo=githubactions&logoColor=a6d7f4" alt="Automation" />
-
-<br>
-
-<sub>Tools are part of the journey. The goal is to keep learning how to use them well.</sub>
+<img src="https://img.shields.io/badge/automation-0a0c0f?style=flat-square&logo=githubactions&logoColor=a6d7f4" alt="Automation" />
 
 </div>
 
----
-
-## 04 / SELECTED WORK
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [Portfolio ↗](https://github.com/EclipZexe/portfolio)
-
-My personal corner of the internet: an evolving space for projects, interactive visuals, music stats, a guest wall, and ideas that deserve a home.
-
-**Focus:** web · interaction · personal identity
-
-</td>
-<td width="50%" valign="top">
-
-### [Botty ↗](https://github.com/EclipZexe/botty)
-
-A Discord bot project exploring useful server tools, including verification, moderation, server templates, and a dashboard.
-
-**Focus:** Discord · automation · product thinking
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### PC projects
-
-Learning by getting closer to the hardware: component choices, cleaning, repair, troubleshooting, and building better systems.
-
-**Focus:** hardware · maintenance · problem-solving
-
-</td>
-<td width="50%" valign="top">
-
-### eclipz.dev
-
-The home for my identity and work online—designed to grow alongside the projects, experiments, and skills I build.
-
-**Focus:** web · design · motion · personal brand
-
-</td>
-</tr>
-</table>
-
----
-
-## 05 / DISCORD PRESENCE
+## ▍ activity
 
 <div align="center">
 
-<a href="https://discord.com/users/1158438108262572052">
-  <img src="https://lanyard.cnrad.dev/api/1158438108262572052?theme=dark&bg=0a0c0f&borderRadius=12px&idleMessage=probably%20building%20something" alt="My live Discord presence — click to open my Discord profile" />
-</a>
-
-<br>
-
-<sub>Powered by <a href="https://github.com/cnrad/lanyard-profile-readme">Lanyard</a>. Live status appears when my Discord account is available to Lanyard.</sub>
+<img src="https://streak-stats.demolab.com?user=EclipZexe&theme=transparent&hide_border=true&background=0a0c0f&ring=A6D7F4&fire=A6D7F4&currStreakLabel=A6D7F4&sideLabels=C3D0D9&dates=71808E&sideNums=EDF7FF&currStreakNum=EDF7FF&stroke=36424C" alt="GitHub contribution streak" />
 
 </div>
 
----
+## ▍ the loop
 
-## 06 / GITHUB STATS
+```text
+ learn ---> build ------> break
+   ^                        |
+   |                        v
+ improve <- understand <- fix it
+```
 
 <div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=EclipZexe&show_icons=true&hide_border=true&bg_color=090a0d&title_color=a6d7f4&text_color=c3d0d9&icon_color=5b91bc&ring_color=5b91bc&rank_icon=github" alt="GitHub overview stats" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EclipZexe&layout=compact&hide_border=true&bg_color=090a0d&title_color=a6d7f4&text_color=c3d0d9" alt="Most used languages" />
 
 <br>
 
-<img src="https://streak-stats.demolab.com?user=EclipZexe&theme=transparent&hide_border=true&background=090a0d&ring=8DBFDF&fire=A6D7F4&currStreakLabel=A6D7F4&sideLabels=C3D0D9&dates=71808E&sideNums=EDF7FF&currStreakNum=EDF7FF" alt="GitHub contribution streak" />
+**built one project at a time.**
 
-</div>
-
----
-
-## 07 / ACTIVITY
-
-<div align="center">
-
-<img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=EclipZexe&bg_color=090a0d&color=c3d0d9&line=5b91bc&point=f2efff&area=true&area_color=294355&hide_border=true&custom_title=activity%20%2F%2F%20last%2012%20months" alt="GitHub contribution activity graph" />
-
-</div>
-
----
-
-## 08 / THE CURRENT LOOP
-
-~~~text
-learn       -> build       -> break
-  ^                           |
-  |                           v
-improve     <- understand <- fix it
-~~~
-
-<div align="center">
-
-**Made in Guadeloupe. Built one project at a time.**
-
-<br>
-
-<a href="https://eclipz.dev">eclipz.dev</a> · <a href="mailto:hello@eclipz.dev">hello@eclipz.dev</a> · <a href="https://github.com/EclipZexe">GitHub</a>
-
-<br><br>
-
-<sub>Build / learn / create / repeat.</sub>
+<a href="https://eclipz.dev">eclipz.dev</a> · <a href="mailto:hello@eclipz.dev">hello@eclipz.dev</a> · <a href="https://github.com/EclipZexe?tab=repositories">repositories</a>
 
 </div>
