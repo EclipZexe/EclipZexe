@@ -1,159 +1,115 @@
 <div align="center">
 
-<a href="https://eclipz.dev"><img width="100%" src="./assets/eclipz-terminal-banner.svg" alt="eclipz — animated ASCII banner" /></a>
+<a href="https://eclipz.dev"><img width="100%" src="./assets/rice-banner.svg" alt="A tiled desktop: a terminal runs fastfetch for eclipz next to an ASCII eclipse, and a second window shows the ECLIPZ wordmark" /></a>
 
-<br><br>
+<br>
 
-<a href="https://eclipz.dev"><img src="https://img.shields.io/badge/website-eclipz.dev-0a0c0f?style=for-the-badge&logo=googlechrome&logoColor=a6d7f4" alt="Website: eclipz.dev" /></a>
-<a href="mailto:hello@eclipz.dev"><img src="https://img.shields.io/badge/email-say_hello-0a0c0f?style=for-the-badge&logo=gmail&logoColor=a6d7f4" alt="Email: hello@eclipz.dev" /></a>
-<a href="https://discord.com/users/1158438108262572052"><img src="https://img.shields.io/badge/discord-3clipz-0a0c0f?style=for-the-badge&logo=discord&logoColor=a6d7f4" alt="Discord profile" /></a>
-<img src="https://komarev.com/ghpvc/?username=EclipZexe&label=profile+views&color=0a0c0f&style=for-the-badge" alt="Profile views" />
+**蝕 · 光と影のあいだで** · _between light and shadow._
+
+Developer and PC enthusiast. I build websites, browsers, bots and tools, then take them apart to see how they work.
+
+<br>
+
+<a href="https://eclipz.dev"><img src="https://img.shields.io/badge/eclipz.dev-0d0d0d?style=for-the-badge&logo=googlechrome&logoColor=E2342A" alt="Website: eclipz.dev" /></a>
+<a href="mailto:hello@eclipz.dev"><img src="https://img.shields.io/badge/say_hello-0d0d0d?style=for-the-badge&logo=gmail&logoColor=E2342A" alt="Email: hello@eclipz.dev" /></a>
+<a href="https://discord.com/users/1158438108262572052"><img src="https://img.shields.io/badge/discord-0d0d0d?style=for-the-badge&logo=discord&logoColor=E2342A" alt="Discord profile" /></a>
+<img src="https://komarev.com/ghpvc/?username=EclipZexe&label=views&color=E2342A&style=for-the-badge" alt="Profile views" />
+
+<a href="https://archlinux.org"><img src="https://img.shields.io/badge/arch-0d0d0d?style=flat-square&logo=archlinux&logoColor=1793D1" alt="Arch Linux" /></a>
+<a href="https://hypr.land"><img src="https://img.shields.io/badge/hyprland-0d0d0d?style=flat-square&logo=hyprland&logoColor=1793D1" alt="Hyprland" /></a>
+<a href="https://ryoku.dev"><img src="https://img.shields.io/badge/ryoku-0d0d0d?style=flat-square&logoColor=E2342A&label=%E5%8A%9B&labelColor=E2342A" alt="Ryoku" /></a>
+<img src="https://img.shields.io/badge/status-building-0d0d0d?style=flat-square&labelColor=E2342A" alt="Status: building" />
+
+<br>
+
+[**About**](#about) · [**Projects**](#projects) · [**Day to day**](#day-to-day) · [**Toolbox**](#toolbox) · [**Where to find me**](#where-to-find-me)
 
 </div>
 
 <br>
 
-## ▍ about
+## About
 
-<table>
-<tr>
-<td width="58%" valign="top">
+<sub>`01 //` 人</sub>
 
-### Hey, I'm Gabriel, online as **3clipz**.
+I'm **Gabriel**, online as **3clipz**. It's pronounced *"eclipse"*, and everything I make goes out under the **EclipZ** name.
 
-*3clipz* is pronounced **"eclipse"**. I'm a developer and PC enthusiast building under the **EclipZ** name.
+I like software that feels intentional: personal websites with personality, dashboards, Discord tools, automation, and lately a whole browser. I'm just as interested in what's inside the case. When I'm not writing code I'm building, cleaning, troubleshooting and repairing PCs.
 
-I like making digital things feel intentional: websites, dashboards, Discord bots, automation, and interfaces with personality. I'm just as curious about what's **inside** the computer as what's on the screen, so when I'm not writing code I'm building, cleaning, troubleshooting and repairing PCs.
+My desktop taste runs to tiled windows, black backgrounds, one sharp accent colour, and a terminal that's always open. Arch Linux and [Ryoku](https://ryoku.dev) are where that look comes from.
 
-> **build it → understand it → improve it → repeat**
+```fish
+❯ whoami
+gabriel  # 3clipz, say "eclipse"
 
-</td>
-<td width="42%" valign="top">
-
-```js
-const threeClipz = {
-  name: "Gabriel",
-  alias: "3clipz",       // say "eclipse"
-  site: "eclipz.dev",
-  building: ["Helix", "eclipz.dev", "Botty"],
-  interests: [
-    "software development",
-    "UI and motion design",
-    "PC building & repair",
-    "Discord tools",
-  ],
-  mindset: "always learning",
-};
+❯ cat ~/now
+shipping helix, a gecko-based browser
+rebuilding eclipz.dev one page at a time
 ```
 
-</td>
-</tr>
-</table>
+## Projects
 
-## ▍ projects
+<sub>`02 //` 作</sub>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+| | Project | What it is | Status |
+|:-:|---|---|---|
+| 蝕 | **[eclipz.dev](https://eclipz.dev)** | My corner of the internet. A hand-built static site with a 3D island menu, live music stats, a guest wall and weather. No framework. | `live` |
+| 螺 | **Helix** | A performance-first desktop browser on Firefox's Gecko engine: built-in uBlock Origin, Chrome Web Store and Edge Add-ons support, and a calm 3D homepage. | `private · building` |
+| 守 | **[Botty](https://github.com/EclipZexe/botty)** | An all-in-one Discord bot: tiered join verification, moderation, themed server templates and a web dashboard. | `docs` |
+| 書 | **[Vesper](https://github.com/EclipZexe/Vesper)** | A reference write-up on Claude Code: what it can do, how you extend it, and where it's heading. | `wip` |
 
-### [eclipz.dev ↗](https://eclipz.dev)
-My corner of the internet: interactive visuals, live music stats, a guest wall, weather, and whatever I'm into right now. Hand-built static site, no framework.
+## Day to day
 
-`web` `interaction` `motion`
+<sub>`03 //` 道</sub>
 
-</td>
-<td width="50%" valign="top">
+```sh
+eclipz build     # make the thing
+eclipz break     # find where it falls over
+eclipz fix       # understand why
+eclipz improve   # make it better than before
+eclipz repeat    # the loop never really ends
+```
 
-### Helix
-A performance-first personal desktop browser built on Firefox's Gecko engine, with built-in ad blocking, Chrome Web Store support and a calm 3D homepage. *Private, in progress.*
+**On the bench**
 
-`gecko` `desktop` `performance`
+| Software | Hardware |
+|---|---|
+| Personal sites and interactive experiences | PC builds and part compatibility |
+| Dashboards, tools and automation | Cleaning, maintenance and repair |
+| Discord bots and integrations | Troubleshooting until it's fixed |
+| UI, motion and desktop concepts | Cleaner, quieter, more reliable setups |
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+## Toolbox
 
-### [Botty ↗](https://github.com/EclipZexe/botty)
-An all-in-one Discord bot: tiered join verification, moderation, themed server templates and a web dashboard.
-
-`discord` `automation` `product`
-
-</td>
-<td width="50%" valign="top">
-
-### [Vesper ↗](https://github.com/EclipZexe/Vesper)
-A reference write-up on Claude Code: core capabilities, the extensibility model, and how the tool is evolving.
-
-`docs` `research` `ai tooling`
-
-</td>
-</tr>
-</table>
-
-## ▍ what I'm into
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**software**
-- personal websites and interactive experiences
-- dashboards, tools and automation
-- Discord bots and integrations
-- UI/UX, design systems and desktop concepts
-
-</td>
-<td width="50%" valign="top">
-
-**hardware**
-- PC component compatibility
-- building, maintaining and troubleshooting systems
-- cleaning and repair
-- making a setup cleaner, quieter and more reliable
-
-</td>
-</tr>
-</table>
-
-## ▍ toolbox
+<sub>`04 //` 具</sub>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,js,ts,html,css,nodejs,git,github,vscode,windows,discord&theme=dark" alt="Python, JavaScript, TypeScript, HTML, CSS, Node.js, Git, GitHub, VS Code, Windows, Discord" />
+<img src="https://skillicons.dev/icons?i=py,js,ts,html,css,nodejs,bash,git,github,vscode,arch,linux,windows,discord&theme=dark&perline=14" alt="Python, JavaScript, TypeScript, HTML, CSS, Node.js, Bash, Git, GitHub, VS Code, Arch Linux, Linux, Windows, Discord" />
 
 <br><br>
 
-<img src="https://img.shields.io/badge/PC_building-0a0c0f?style=flat-square&logo=pcgamingwiki&logoColor=a6d7f4" alt="PC building" />
-<img src="https://img.shields.io/badge/troubleshooting-0a0c0f?style=flat-square&logo=ifixit&logoColor=a6d7f4" alt="Troubleshooting" />
-<img src="https://img.shields.io/badge/UI%2FUX-0a0c0f?style=flat-square&logo=figma&logoColor=a6d7f4" alt="UI and UX" />
-<img src="https://img.shields.io/badge/automation-0a0c0f?style=flat-square&logo=githubactions&logoColor=a6d7f4" alt="Automation" />
+<img src="https://streak-stats.demolab.com?user=EclipZexe&theme=transparent&hide_border=true&background=0D0D0D&ring=E2342A&fire=E2342A&currStreakLabel=E9E3D6&sideLabels=E9E3D6&dates=77716A&sideNums=E9E3D6&currStreakNum=E9E3D6&stroke=2A2826" alt="GitHub contribution streak" />
 
 </div>
 
-## ▍ activity
+## Where to find me
 
-<div align="center">
+<sub>`05 //` 外</sub>
 
-<img src="https://streak-stats.demolab.com?user=EclipZexe&theme=transparent&hide_border=true&background=0a0c0f&ring=A6D7F4&fire=A6D7F4&currStreakLabel=A6D7F4&sideLabels=C3D0D9&dates=71808E&sideNums=EDF7FF&currStreakNum=EDF7FF&stroke=36424C" alt="GitHub contribution streak" />
-
-</div>
-
-## ▍ the loop
-
-```text
- learn ---> build ------> break
-   ^                        |
-   |                        v
- improve <- understand <- fix it
-```
-
-<div align="center">
+| | |
+|---|---|
+| Website | [eclipz.dev](https://eclipz.dev) |
+| Email | [hello@eclipz.dev](mailto:hello@eclipz.dev) |
+| Discord | [3clipz](https://discord.com/users/1158438108262572052) |
+| Code | [github.com/EclipZexe](https://github.com/EclipZexe?tab=repositories) |
 
 <br>
 
-**built one project at a time.**
+<div align="center">
 
-<a href="https://eclipz.dev">eclipz.dev</a> · <a href="mailto:hello@eclipz.dev">hello@eclipz.dev</a> · <a href="https://github.com/EclipZexe?tab=repositories">repositories</a>
+<img width="100%" src="./assets/rice-footer.svg" alt="eclipz@arch: exit 0, built one project at a time. See you." />
+
+<sub>The look is inspired by <a href="https://ryoku.dev">Ryoku</a> and <a href="https://archlinux.org">Arch Linux</a>.</sub>
 
 </div>

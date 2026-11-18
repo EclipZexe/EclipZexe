@@ -1,0 +1,1170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-label="eclipz: a tiled desktop running a fetch readout">
+<title>eclipz</title>
+<style>
+text{font-family:ui-monospace,'Maple Mono','JetBrains Mono',SFMono-Regular,Menlo,Consolas,monospace;white-space:pre}
+.jp{font-family:'Noto Sans JP','Yu Gothic','Hiragino Sans','Meiryo',sans-serif}
+.t{font-size:13px;fill:#e9e3d6} .ts{font-size:12px;fill:#77716a}
+.b{fill:#e9e3d6} .d{fill:#77716a} .f{fill:#2a2826} .r{fill:#e2342a} .ab{fill:#1793d1}
+.k{font-weight:700}
+.in{opacity:0;animation:in .01s linear forwards}
+@keyframes in{to{opacity:1}}
+.nz{opacity:0;animation:nz .45s steps(1,end) forwards}
+@keyframes nz{0%{opacity:1}60%{opacity:.6}100%{opacity:0}}
+.ty{animation:ty linear forwards;animation-timing-function:steps(var(--n),end)}
+@keyframes ty{to{transform:translateX(var(--w))}}
+.cur{animation:bl 1.05s steps(1,end) infinite}
+@keyframes bl{50%{opacity:0}}
+.ws{animation:ws 8s steps(1,end) infinite}
+@keyframes ws{0%{transform:translateX(0)}25%{transform:translateX(30px)}50%{transform:translateX(60px)}75%{transform:translateX(30px)}}
+.cpu{transform-box:fill-box;transform-origin:50% 100%;animation:cpu 1.6s ease-in-out infinite alternate}
+@keyframes cpu{from{transform:scaleY(.25)}to{transform:scaleY(1)}}
+.moon{animation:mo 11s ease-in-out infinite}
+@keyframes mo{0%{transform:translate(-118px,20px)}44%,56%{transform:translate(0,0)}100%{transform:translate(118px,-20px)}}
+.cor{animation:co 11s ease-in-out infinite}
+@keyframes co{0%,32%,68%,100%{opacity:.2}46%,54%{opacity:1}}
+.sun{animation:sn 11s ease-in-out infinite}
+@keyframes sn{0%,32%,68%,100%{opacity:1}46%,54%{opacity:.3}}
+.sw{animation:sw 6s cubic-bezier(.6,0,.4,1) 3.2s infinite;transform:translateX(-260px)}
+@keyframes sw{0%{transform:translateX(-260px)}55%,100%{transform:translateX(780px)}}
+.gl{opacity:0;animation:gl 8s steps(1,end) 4s infinite}
+@keyframes gl{0%,90%,91.6%,100%{opacity:0;transform:none}90.2%{opacity:.85;transform:translateX(6px)}91%{opacity:.85;transform:translateX(-4px)}}
+.pulse{animation:pu 2.4s ease-in-out infinite}
+@keyframes pu{0%,100%{opacity:.35}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){
+ *{animation:none!important} .in{opacity:1} .nz,.gl,.sw{opacity:0} .ty{transform:translateX(var(--w))}
+ animateTransform{display:none}
+}
+</style>
+<defs>
+<linearGradient id="bd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="500">
+ <stop offset="0" stop-color="#e2342a"/><stop offset=".5" stop-color="#e9e3d6" stop-opacity=".35"/><stop offset="1" stop-color="#1793d1"/>
+ <animateTransform attributeName="gradientTransform" type="rotate" from="0 600.0 250.0" to="360 600.0 250.0" dur="14s" repeatCount="indefinite"/>
+</linearGradient>
+<linearGradient id="bd2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="500">
+ <stop offset="0" stop-color="#1793d1"/><stop offset=".5" stop-color="#e9e3d6" stop-opacity=".25"/><stop offset="1" stop-color="#e2342a"/>
+ <animateTransform attributeName="gradientTransform" type="rotate" from="360 600.0 250.0" to="0 600.0 250.0" dur="18s" repeatCount="indefinite"/>
+</linearGradient>
+<linearGradient id="shg" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<pattern id="grain" width="3" height="3" patternUnits="userSpaceOnUse"><rect width="3" height="1" fill="#000" opacity=".28"/></pattern>
+<clipPath id="all"><rect width="1200" height="500" rx="16"/></clipPath>
+
+<g id="wm"><rect x="627.4" y="161.7" width="86.8" height="20.6"/><rect x="739.0" y="161.7" width="74.4" height="20.6"/><rect x="825.8" y="161.7" width="24.8" height="20.6"/><rect x="925.0" y="161.7" width="24.8" height="20.6"/><rect x="962.2" y="161.7" width="74.4" height="20.6"/><rect x="1061.4" y="161.7" width="86.8" height="20.6"/><rect x="627.4" y="181.7" width="24.8" height="20.6"/><rect x="726.6" y="181.7" width="24.8" height="20.6"/><rect x="825.8" y="181.7" width="24.8" height="20.6"/><rect x="925.0" y="181.7" width="24.8" height="20.6"/><rect x="962.2" y="181.7" width="24.8" height="20.6"/><rect x="1024.2" y="181.7" width="24.8" height="20.6"/><rect x="1098.6" y="181.7" width="37.2" height="20.6"/><rect x="627.4" y="201.7" width="62.0" height="20.6"/><rect x="726.6" y="201.7" width="24.8" height="20.6"/><rect x="825.8" y="201.7" width="24.8" height="20.6"/><rect x="925.0" y="201.7" width="24.8" height="20.6"/><rect x="962.2" y="201.7" width="74.4" height="20.6"/><rect x="1086.2" y="201.7" width="37.2" height="20.6"/><rect x="627.4" y="221.7" width="24.8" height="20.6"/><rect x="726.6" y="221.7" width="24.8" height="20.6"/><rect x="825.8" y="221.7" width="24.8" height="20.6"/><rect x="925.0" y="221.7" width="24.8" height="20.6"/><rect x="962.2" y="221.7" width="24.8" height="20.6"/><rect x="1073.8" y="221.7" width="37.2" height="20.6"/><rect x="627.4" y="241.7" width="86.8" height="20.6"/><rect x="739.0" y="241.7" width="74.4" height="20.6"/><rect x="825.8" y="241.7" width="86.8" height="20.6"/><rect x="925.0" y="241.7" width="24.8" height="20.6"/><rect x="962.2" y="241.7" width="24.8" height="20.6"/><rect x="1061.4" y="241.7" width="86.8" height="20.6"/></g>
+<mask id="wmm"><use href="#wm" fill="#fff" style="fill:#fff"/></mask>
+<clipPath id="g1"><rect x="0" y="188" width="1200" height="16"/></clipPath>
+<clipPath id="g2"><rect x="0" y="236" width="1200" height="11"/></clipPath>
+</defs>
+<g clip-path="url(#all)">
+<rect width="1200" height="500" fill="#0b0b0b"/>
+<text class="jp" x="1160" y="560" text-anchor="end" style="font-size:520px;fill:#151413">蝕</text>
+<rect x="24" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="24" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="24" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="24" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="24" y="408" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="24" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="56" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="56" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="56" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="56" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="56" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="56" y="408" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="56" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="56" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="88" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="88" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="88" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="88" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="88" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="88" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="120" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="120" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="120" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="120" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="120" y="312" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="120" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="120" y="408" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="120" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="152" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="152" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="152" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="152" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="152" y="312" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="152" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="152" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="152" y="408" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="152" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="184" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="184" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="184" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="184" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="184" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="184" y="312" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="184" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="184" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="216" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="216" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="216" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="216" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="216" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="216" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="216" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="216" y="408" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="216" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="248" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="248" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="248" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="248" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="248" y="312" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="248" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="248" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="248" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="280" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="280" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="280" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="280" y="312" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="280" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="280" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="312" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="312" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="312" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="312" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="312" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="312" y="408" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="312" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="312" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="344" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="344" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="344" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="344" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="344" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="344" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="344" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="344" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="376" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="376" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="376" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="376" y="312" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="376" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="408" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="408" y="312" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="408" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="440" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="440" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="440" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="440" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="472" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="472" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="472" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="472" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="472" y="312" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="472" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="472" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="472" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="472" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="504" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="504" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="504" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="504" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="504" y="408" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="504" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="536" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="536" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="536" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="536" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="536" y="312" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="536" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="536" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="536" y="408" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="536" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="568" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="568" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="568" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="568" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="568" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="568" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="568" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="568" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="600" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="600" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="600" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="600" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="600" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="600" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="600" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="632" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="632" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="632" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="632" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="632" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="632" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="632" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="632" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="664" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="664" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="664" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="664" y="312" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="664" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="696" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="696" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="696" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="728" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="728" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="728" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="728" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="728" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="728" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="728" y="408" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="728" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="760" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="760" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="760" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="760" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="760" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="760" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="792" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="792" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="792" y="312" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="792" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="824" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="824" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="824" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="824" y="408" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="824" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="856" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="856" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="856" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="856" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="856" y="312" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="856" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="856" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="856" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="888" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="888" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="888" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="888" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="888" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="888" y="312" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="888" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="888" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="888" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="920" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="920" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="920" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="920" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="920" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="920" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="952" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="952" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="952" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="952" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="952" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="952" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="952" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="984" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="984" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="984" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="984" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="984" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="984" y="408" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1016" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1016" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1016" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1016" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1016" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1016" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1016" y="408" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1048" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1048" y="120" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1048" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1048" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1048" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1048" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1048" y="408" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1080" y="56" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1080" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1080" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1080" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1080" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1080" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1080" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1112" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1112" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1144" y="88" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1144" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1144" y="184" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1144" y="216" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1144" y="248" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1144" y="280" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1144" y="376" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1144" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1176" y="152" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1176" y="344" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1176" y="440" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="1176" y="472" width="1.2" height="1.2" fill="#2a2826"/>
+<rect x="16" y="14" width="1168" height="34" rx="9" fill="#121212" stroke="#2a2826"/>
+<rect class="ws" x="30" y="22" width="24" height="18" rx="5" fill="#e2342a"/>
+<text class="t" x="38" y="36" style="font-size:12px">1</text>
+<text class="t" x="68" y="36" style="font-size:12px">2</text>
+<text class="t" x="98" y="36" style="font-size:12px">3</text>
+<text class="t" x="128" y="36" style="font-size:12px">4</text>
+<text class="ts" x="160.0" y="36.0">a</text>
+<text class="ts" x="167.3" y="36.0">r</text>
+<text class="ts" x="174.6" y="36.0">c</text>
+<text class="ts" x="181.9" y="36.0">h</text>
+<text class="ts" x="196.5" y="36.0">·</text>
+<text class="ts" x="211.1" y="36.0">h</text>
+<text class="ts" x="218.4" y="36.0">y</text>
+<text class="ts" x="225.7" y="36.0">p</text>
+<text class="ts" x="233.0" y="36.0">r</text>
+<text class="ts" x="240.3" y="36.0">l</text>
+<text class="ts" x="247.6" y="36.0">a</text>
+<text class="ts" x="254.9" y="36.0">n</text>
+<text class="ts" x="262.2" y="36.0">d</text>
+<text class="ts" x="269.5" y="36.0">-</text>
+<text class="ts" x="276.8" y="36.0">b</text>
+<text class="ts" x="284.1" y="36.0">r</text>
+<text class="ts" x="291.4" y="36.0">a</text>
+<text class="ts" x="298.7" y="36.0">i</text>
+<text class="ts" x="306.0" y="36.0">n</text>
+<text class="ts" x="313.3" y="36.0">e</text>
+<text class="ts" x="320.6" y="36.0">d</text>
+<text class="jp k" x="600.0" y="37" text-anchor="middle" style="font-size:15px;fill:#e9e3d6">蝕 <tspan style="font-family:ui-monospace,'Maple Mono','JetBrains Mono',SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;font-weight:400;fill:#77716a">eclipz</tspan></text>
+<text class="ts" x="870.0" y="36.0">c</text>
+<text class="ts" x="877.3" y="36.0">p</text>
+<text class="ts" x="884.6" y="36.0">u</text>
+<rect class="cpu" x="900" y="34" width="4" height="6" fill="#1793d1" style="animation-delay:-1.22s;animation-duration:1.48s"/>
+<rect class="cpu" x="906" y="34" width="4" height="6" fill="#1793d1" style="animation-delay:-0.16s;animation-duration:1.13s"/>
+<rect class="cpu" x="912" y="29" width="4" height="11" fill="#1793d1" style="animation-delay:-0.88s;animation-duration:1.36s"/>
+<rect class="cpu" x="918" y="26" width="4" height="14" fill="#1793d1" style="animation-delay:-0.91s;animation-duration:1.80s"/>
+<rect class="cpu" x="924" y="24" width="4" height="16" fill="#1793d1" style="animation-delay:-0.71s;animation-duration:1.48s"/>
+<rect class="cpu" x="930" y="26" width="4" height="14" fill="#1793d1" style="animation-delay:-0.96s;animation-duration:1.58s"/>
+<rect class="cpu" x="936" y="34" width="4" height="6" fill="#1793d1" style="animation-delay:-0.62s;animation-duration:1.74s"/>
+<rect class="cpu" x="942" y="28" width="4" height="12" fill="#1793d1" style="animation-delay:-0.75s;animation-duration:1.05s"/>
+<rect class="cpu" x="948" y="27" width="4" height="13" fill="#1793d1" style="animation-delay:-0.87s;animation-duration:1.44s"/>
+<rect class="cpu" x="954" y="28" width="4" height="12" fill="#1793d1" style="animation-delay:-1.51s;animation-duration:1.28s"/>
+<text class="ts" x="964.0" y="36.0">♪</text>
+<text class="ts" x="978.6" y="36.0">l</text>
+<text class="ts" x="985.9" y="36.0">a</text>
+<text class="ts" x="993.2" y="36.0">s</text>
+<text class="ts" x="1000.5" y="36.0">t</text>
+<text class="ts" x="1007.8" y="36.0">.</text>
+<text class="ts" x="1015.1" y="36.0">f</text>
+<text class="ts" x="1022.4" y="36.0">m</text>
+<circle class="pulse" cx="1040" cy="31" r="4" fill="#e2342a"/>
+<text class="ts" x="1050.0" y="36.0">o</text>
+<text class="ts" x="1057.3" y="36.0">n</text>
+<text class="ts" x="1064.6" y="36.0">l</text>
+<text class="ts" x="1071.9" y="36.0">i</text>
+<text class="ts" x="1079.2" y="36.0">n</text>
+<text class="ts" x="1086.5" y="36.0">e</text>
+<text class="t" x="1124.0" y="36.0">2</text>
+<text class="t" x="1132.0" y="36.0">2</text>
+<text class="t" x="1140.0" y="36.0">:</text>
+<text class="t" x="1148.0" y="36.0">1</text>
+<text class="t" x="1156.0" y="36.0">4</text>
+<rect x="16" y="62" width="572" height="422" rx="12" fill="#121212" fill-opacity=".94" stroke="url(#bd)" stroke-width="2"/>
+<rect x="604" y="62" width="580" height="422" rx="12" fill="#121212" fill-opacity=".94" stroke="url(#bd2)" stroke-width="2"/>
+<text class="ts" x="34.0" y="86.0">k</text>
+<text class="ts" x="41.3" y="86.0">i</text>
+<text class="ts" x="48.6" y="86.0">t</text>
+<text class="ts" x="55.9" y="86.0">t</text>
+<text class="ts" x="63.2" y="86.0">y</text>
+<text class="ts" x="77.8" y="86.0">—</text>
+<text class="ts" x="92.4" y="86.0">~</text>
+<text class="ts" x="508.0" y="86.0">0</text>
+<text class="ts" x="515.3" y="86.0">1</text>
+<text class="ts" x="529.9" y="86.0">/</text>
+<text class="ts" x="537.2" y="86.0">/</text>
+<text class="ts" x="551.8" y="86.0">蝕</text>
+<text class="ts" x="622.0" y="86.0">~</text>
+<text class="ts" x="629.3" y="86.0">/</text>
+<text class="ts" x="636.6" y="86.0">e</text>
+<text class="ts" x="643.9" y="86.0">c</text>
+<text class="ts" x="651.2" y="86.0">l</text>
+<text class="ts" x="658.5" y="86.0">i</text>
+<text class="ts" x="665.8" y="86.0">p</text>
+<text class="ts" x="673.1" y="86.0">z</text>
+<text class="ts" x="687.7" y="86.0">—</text>
+<text class="ts" x="702.3" y="86.0">w</text>
+<text class="ts" x="709.6" y="86.0">o</text>
+<text class="ts" x="716.9" y="86.0">r</text>
+<text class="ts" x="724.2" y="86.0">d</text>
+<text class="ts" x="731.5" y="86.0">m</text>
+<text class="ts" x="738.8" y="86.0">a</text>
+<text class="ts" x="746.1" y="86.0">r</text>
+<text class="ts" x="753.4" y="86.0">k</text>
+<text class="ts" x="1104.0" y="86.0">0</text>
+<text class="ts" x="1111.3" y="86.0">2</text>
+<text class="ts" x="1125.9" y="86.0">/</text>
+<text class="ts" x="1133.2" y="86.0">/</text>
+<text class="ts" x="1147.8" y="86.0">光</text>
+<rect x="17" y="98" width="570" height="1" fill="#2a2826"/>
+<rect x="605" y="98" width="578" height="1" fill="#2a2826"/>
+<text class="t r k" x="38.0" y="126.0">e</text>
+<text class="t r k" x="45.8" y="126.0">c</text>
+<text class="t r k" x="53.6" y="126.0">l</text>
+<text class="t r k" x="61.4" y="126.0">i</text>
+<text class="t r k" x="69.2" y="126.0">p</text>
+<text class="t r k" x="77.0" y="126.0">z</text>
+<text class="t d" x="84.8" y="126.0">@</text>
+<text class="t d" x="92.6" y="126.0">a</text>
+<text class="t d" x="100.4" y="126.0">r</text>
+<text class="t d" x="108.2" y="126.0">c</text>
+<text class="t d" x="116.0" y="126.0">h</text>
+<text class="t ab" x="131.6" y="126.0">~</text>
+<text class="t ab" x="147.2" y="126.0">❯</text>
+<text class="t" x="162.8" y="126">f</text>
+<text class="t" x="170.6" y="126">a</text>
+<text class="t" x="178.4" y="126">s</text>
+<text class="t" x="186.2" y="126">t</text>
+<text class="t" x="194.0" y="126">f</text>
+<text class="t" x="201.8" y="126">e</text>
+<text class="t" x="209.6" y="126">t</text>
+<text class="t" x="217.4" y="126">c</text>
+<text class="t" x="225.2" y="126">h</text>
+<clipPath id="ty1"><rect x="160.8" y="112" width="74" height="19"/></clipPath>
+<g clip-path="url(#ty1)"><rect class="ty" x="160.8" y="112" width="74" height="19" fill="#121212" style="--n:9;--w:74px;animation-duration:0.64s;animation-delay:0.50s"/></g>
+<g class="in" style="animation-delay:1.29s"><g class="sun" style="font-size:11px;fill:#e9e3d6"><text x="85.0" y="205.0">.</text><text x="91.6" y="205.0">.</text><text x="98.2" y="205.0">.</text><text x="104.8" y="205.0">:</text><text x="111.4" y="205.0">-</text><text x="118.0" y="205.0">-</text><text x="124.6" y="205.0">:</text><text x="131.2" y="205.0">-</text><text x="137.8" y="205.0">:</text><text x="144.4" y="205.0">.</text><text x="151.0" y="205.0">.</text><text x="71.8" y="216.0">.</text><text x="78.4" y="216.0">.</text><text x="85.0" y="216.0">-</text><text x="91.6" y="216.0">-</text><text x="98.2" y="216.0">+</text><text x="104.8" y="216.0">+</text><text x="111.4" y="216.0">=</text><text x="118.0" y="216.0">*</text><text x="124.6" y="216.0">*</text><text x="131.2" y="216.0">=</text><text x="137.8" y="216.0">+</text><text x="144.4" y="216.0">=</text><text x="151.0" y="216.0">-</text><text x="157.6" y="216.0">-</text><text x="164.2" y="216.0">.</text><text x="65.2" y="227.0">.</text><text x="71.8" y="227.0">-</text><text x="78.4" y="227.0">=</text><text x="85.0" y="227.0">=</text><text x="91.6" y="227.0">*</text><text x="98.2" y="227.0">*</text><text x="104.8" y="227.0">*</text><text x="111.4" y="227.0">*</text><text x="118.0" y="227.0">#</text><text x="124.6" y="227.0">#</text><text x="131.2" y="227.0">*</text><text x="137.8" y="227.0">+</text><text x="144.4" y="227.0">*</text><text x="151.0" y="227.0">=</text><text x="157.6" y="227.0">=</text><text x="164.2" y="227.0">-</text><text x="170.8" y="227.0">.</text><text x="177.4" y="227.0">.</text><text x="58.6" y="238.0">.</text><text x="65.2" y="238.0">:</text><text x="71.8" y="238.0">=</text><text x="78.4" y="238.0">+</text><text x="85.0" y="238.0">*</text><text x="91.6" y="238.0">#</text><text x="98.2" y="238.0">#</text><text x="104.8" y="238.0">#</text><text x="111.4" y="238.0">#</text><text x="118.0" y="238.0">%</text><text x="124.6" y="238.0">%</text><text x="131.2" y="238.0">%</text><text x="137.8" y="238.0">#</text><text x="144.4" y="238.0">*</text><text x="151.0" y="238.0">*</text><text x="157.6" y="238.0">+</text><text x="164.2" y="238.0">=</text><text x="170.8" y="238.0">-</text><text x="177.4" y="238.0">:</text><text x="58.6" y="249.0">.</text><text x="65.2" y="249.0">:</text><text x="71.8" y="249.0">+</text><text x="78.4" y="249.0">*</text><text x="85.0" y="249.0">#</text><text x="91.6" y="249.0">*</text><text x="98.2" y="249.0">#</text><text x="104.8" y="249.0">%</text><text x="111.4" y="249.0">%</text><text x="118.0" y="249.0">%</text><text x="124.6" y="249.0">%</text><text x="131.2" y="249.0">%</text><text x="137.8" y="249.0">#</text><text x="144.4" y="249.0">#</text><text x="151.0" y="249.0">#</text><text x="157.6" y="249.0">*</text><text x="164.2" y="249.0">+</text><text x="170.8" y="249.0">-</text><text x="177.4" y="249.0">:</text><text x="184.0" y="249.0">.</text><text x="58.6" y="260.0">.</text><text x="65.2" y="260.0">-</text><text x="71.8" y="260.0">+</text><text x="78.4" y="260.0">+</text><text x="85.0" y="260.0">*</text><text x="91.6" y="260.0">%</text><text x="98.2" y="260.0">%</text><text x="104.8" y="260.0">@</text><text x="111.4" y="260.0">%</text><text x="118.0" y="260.0">%</text><text x="124.6" y="260.0">%</text><text x="131.2" y="260.0">@</text><text x="137.8" y="260.0">%</text><text x="144.4" y="260.0">%</text><text x="151.0" y="260.0">%</text><text x="157.6" y="260.0">*</text><text x="164.2" y="260.0">+</text><text x="170.8" y="260.0">=</text><text x="177.4" y="260.0">-</text><text x="184.0" y="260.0">.</text><text x="58.6" y="271.0">.</text><text x="65.2" y="271.0">:</text><text x="71.8" y="271.0">+</text><text x="78.4" y="271.0">+</text><text x="85.0" y="271.0">*</text><text x="91.6" y="271.0">#</text><text x="98.2" y="271.0">%</text><text x="104.8" y="271.0">%</text><text x="111.4" y="271.0">%</text><text x="118.0" y="271.0">@</text><text x="124.6" y="271.0">%</text><text x="131.2" y="271.0">%</text><text x="137.8" y="271.0">%</text><text x="144.4" y="271.0">#</text><text x="151.0" y="271.0">#</text><text x="157.6" y="271.0">*</text><text x="164.2" y="271.0">+</text><text x="170.8" y="271.0">=</text><text x="177.4" y="271.0">:</text><text x="184.0" y="271.0">.</text><text x="58.6" y="282.0">.</text><text x="65.2" y="282.0">:</text><text x="71.8" y="282.0">-</text><text x="78.4" y="282.0">+</text><text x="85.0" y="282.0">*</text><text x="91.6" y="282.0">#</text><text x="98.2" y="282.0">%</text><text x="104.8" y="282.0">%</text><text x="111.4" y="282.0">%</text><text x="118.0" y="282.0">%</text><text x="124.6" y="282.0">%</text><text x="131.2" y="282.0">%</text><text x="137.8" y="282.0">#</text><text x="144.4" y="282.0">%</text><text x="151.0" y="282.0">#</text><text x="157.6" y="282.0">+</text><text x="164.2" y="282.0">=</text><text x="170.8" y="282.0">-</text><text x="177.4" y="282.0">.</text><text x="184.0" y="282.0">.</text><text x="65.2" y="293.0">.</text><text x="71.8" y="293.0">:</text><text x="78.4" y="293.0">=</text><text x="85.0" y="293.0">+</text><text x="91.6" y="293.0">*</text><text x="98.2" y="293.0">#</text><text x="104.8" y="293.0">#</text><text x="111.4" y="293.0">#</text><text x="118.0" y="293.0">#</text><text x="124.6" y="293.0">%</text><text x="131.2" y="293.0">#</text><text x="137.8" y="293.0">*</text><text x="144.4" y="293.0">*</text><text x="151.0" y="293.0">+</text><text x="157.6" y="293.0">+</text><text x="164.2" y="293.0">=</text><text x="170.8" y="293.0">:</text><text x="177.4" y="293.0">.</text><text x="71.8" y="304.0">.</text><text x="78.4" y="304.0">:</text><text x="85.0" y="304.0">=</text><text x="91.6" y="304.0">-</text><text x="98.2" y="304.0">=</text><text x="104.8" y="304.0">*</text><text x="111.4" y="304.0">*</text><text x="118.0" y="304.0">+</text><text x="124.6" y="304.0">*</text><text x="131.2" y="304.0">+</text><text x="137.8" y="304.0">+</text><text x="144.4" y="304.0">+</text><text x="151.0" y="304.0">-</text><text x="157.6" y="304.0">:</text><text x="164.2" y="304.0">:</text><text x="170.8" y="304.0">.</text><text x="78.4" y="315.0">.</text><text x="85.0" y="315.0">.</text><text x="91.6" y="315.0">:</text><text x="98.2" y="315.0">-</text><text x="104.8" y="315.0">-</text><text x="111.4" y="315.0">-</text><text x="118.0" y="315.0">=</text><text x="124.6" y="315.0">=</text><text x="131.2" y="315.0">=</text><text x="137.8" y="315.0">-</text><text x="144.4" y="315.0">:</text><text x="151.0" y="315.0">:</text><text x="157.6" y="315.0">.</text><text x="98.2" y="326.0">.</text><text x="104.8" y="326.0">.</text><text x="111.4" y="326.0">.</text><text x="118.0" y="326.0">.</text><text x="124.6" y="326.0">.</text><text x="131.2" y="326.0">.</text><text x="137.8" y="326.0">.</text></g>
+<g class="cor"><g style="font-size:11px;fill:#e2342a"><text x="200.0" y="262.0">·</text><text x="205.4" y="272.4">·</text><text x="197.7" y="281.1">:</text><text x="200.4" y="292.5">:</text><text x="190.8" y="299.2">*</text><text x="190.8" y="310.9">*</text><text x="179.9" y="315.0">*</text><text x="177.0" y="326.4">:</text><text x="165.4" y="327.8">*</text><text x="160.0" y="338.1">+</text><text x="148.4" y="336.8">*</text><text x="140.6" y="345.5">:</text><text x="129.6" y="341.4">:</text><text x="120.0" y="348.0">+</text><text x="110.4" y="341.4">+</text><text x="99.4" y="345.5">·</text><text x="91.6" y="336.8">:</text><text x="80.0" y="338.1">+</text><text x="74.6" y="327.8">·</text><text x="63.0" y="326.4">+</text><text x="60.1" y="315.0">*</text><text x="49.2" y="310.9">*</text><text x="49.2" y="299.2">·</text><text x="39.6" y="292.5">:</text><text x="42.3" y="281.1">·</text><text x="34.6" y="272.4">:</text><text x="40.0" y="262.0">·</text><text x="34.6" y="251.6">+</text><text x="42.3" y="242.9">·</text><text x="39.6" y="231.5">*</text><text x="49.2" y="224.8">*</text><text x="49.2" y="213.1">+</text><text x="60.1" y="209.0">*</text><text x="63.0" y="197.6">*</text><text x="74.6" y="196.2">:</text><text x="80.0" y="185.9">*</text><text x="91.6" y="187.2">:</text><text x="99.4" y="178.5">*</text><text x="110.4" y="182.6">+</text><text x="120.0" y="176.0">:</text><text x="129.6" y="182.6">*</text><text x="140.6" y="178.5">+</text><text x="148.4" y="187.2">:</text><text x="160.0" y="185.9">+</text><text x="165.4" y="196.2">:</text><text x="177.0" y="197.6">:</text><text x="179.9" y="209.0">+</text><text x="190.8" y="213.1">·</text><text x="190.8" y="224.8">:</text><text x="200.4" y="231.5">*</text><text x="197.7" y="242.9">:</text><text x="205.4" y="251.6">·</text><animateTransform attributeName="transform" type="rotate" from="0 120 258" to="360 120 258" dur="40s" repeatCount="indefinite"/></g></g>
+<g class="moon"><circle cx="120" cy="258" r="70" fill="#121212"/><g style="font-size:11px;fill:#2a2826"><text x="98.2" y="205.0">·</text><text x="131.2" y="205.0">.</text><text x="124.6" y="216.0">:</text><text x="131.2" y="216.0">:</text><text x="157.6" y="216.0">.</text><text x="164.2" y="216.0">.</text><text x="78.4" y="227.0">·</text><text x="111.4" y="227.0">:</text><text x="157.6" y="227.0">·</text><text x="71.8" y="238.0">·</text><text x="111.4" y="238.0">.</text><text x="124.6" y="238.0">·</text><text x="151.0" y="238.0">·</text><text x="157.6" y="238.0">·</text><text x="58.6" y="249.0">.</text><text x="91.6" y="249.0">:</text><text x="71.8" y="260.0">.</text><text x="85.0" y="260.0">:</text><text x="124.6" y="260.0">.</text><text x="131.2" y="260.0">.</text><text x="170.8" y="260.0">.</text><text x="85.0" y="271.0">·</text><text x="65.2" y="282.0">:</text><text x="71.8" y="282.0">:</text><text x="104.8" y="282.0">:</text><text x="151.0" y="282.0">:</text><text x="164.2" y="282.0">.</text><text x="71.8" y="293.0">·</text><text x="124.6" y="293.0">·</text><text x="157.6" y="293.0">.</text><text x="104.8" y="304.0">.</text><text x="137.8" y="304.0">:</text><text x="91.6" y="315.0">·</text><text x="104.8" y="315.0">·</text><text x="111.4" y="315.0">·</text></g></g></g>
+<text class="t r k in" x="230.0" y="166.0" style="animation-delay:1.44s">e</text>
+<text class="t r k in" x="237.8" y="166.0" style="animation-delay:1.44s">c</text>
+<text class="t r k in" x="245.6" y="166.0" style="animation-delay:1.44s">l</text>
+<text class="t r k in" x="253.4" y="166.0" style="animation-delay:1.44s">i</text>
+<text class="t r k in" x="261.2" y="166.0" style="animation-delay:1.44s">p</text>
+<text class="t r k in" x="269.0" y="166.0" style="animation-delay:1.44s">z</text>
+<text class="t d in" x="276.8" y="166.0" style="animation-delay:1.44s">@</text>
+<text class="t ab k in" x="284.6" y="166.0" style="animation-delay:1.44s">e</text>
+<text class="t ab k in" x="292.4" y="166.0" style="animation-delay:1.44s">c</text>
+<text class="t ab k in" x="300.2" y="166.0" style="animation-delay:1.44s">l</text>
+<text class="t ab k in" x="308.0" y="166.0" style="animation-delay:1.44s">i</text>
+<text class="t ab k in" x="315.8" y="166.0" style="animation-delay:1.44s">p</text>
+<text class="t ab k in" x="323.6" y="166.0" style="animation-delay:1.44s">z</text>
+<text class="t ab k in" x="331.4" y="166.0" style="animation-delay:1.44s">.</text>
+<text class="t ab k in" x="339.2" y="166.0" style="animation-delay:1.44s">d</text>
+<text class="t ab k in" x="347.0" y="166.0" style="animation-delay:1.44s">e</text>
+<text class="t ab k in" x="354.8" y="166.0" style="animation-delay:1.44s">v</text>
+<text class="t d in" x="230.0" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="237.8" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="245.6" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="253.4" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="261.2" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="269.0" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="276.8" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="284.6" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="292.4" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="300.2" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="308.0" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="315.8" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="323.6" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="331.4" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="339.2" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="347.0" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t d in" x="354.8" y="186.0" style="animation-delay:1.55s">─</text>
+<text class="t ab in" x="230.0" y="206.0" style="animation-delay:1.66s">n</text>
+<text class="t ab in" x="237.8" y="206.0" style="animation-delay:1.66s">a</text>
+<text class="t ab in" x="245.6" y="206.0" style="animation-delay:1.66s">m</text>
+<text class="t ab in" x="253.4" y="206.0" style="animation-delay:1.66s">e</text>
+<text class="t b in" x="308.0" y="206.0" style="animation-delay:1.66s">g</text>
+<text class="t b in" x="315.8" y="206.0" style="animation-delay:1.66s">a</text>
+<text class="t b in" x="323.6" y="206.0" style="animation-delay:1.66s">b</text>
+<text class="t b in" x="331.4" y="206.0" style="animation-delay:1.66s">r</text>
+<text class="t b in" x="339.2" y="206.0" style="animation-delay:1.66s">i</text>
+<text class="t b in" x="347.0" y="206.0" style="animation-delay:1.66s">e</text>
+<text class="t b in" x="354.8" y="206.0" style="animation-delay:1.66s">l</text>
+<text class="t b in" x="370.4" y="206.0" style="animation-delay:1.66s">·</text>
+<text class="t b in" x="386.0" y="206.0" style="animation-delay:1.66s">3</text>
+<text class="t b in" x="393.8" y="206.0" style="animation-delay:1.66s">c</text>
+<text class="t b in" x="401.6" y="206.0" style="animation-delay:1.66s">l</text>
+<text class="t b in" x="409.4" y="206.0" style="animation-delay:1.66s">i</text>
+<text class="t b in" x="417.2" y="206.0" style="animation-delay:1.66s">p</text>
+<text class="t b in" x="425.0" y="206.0" style="animation-delay:1.66s">z</text>
+<text class="t ab in" x="230.0" y="226.0" style="animation-delay:1.77s">s</text>
+<text class="t ab in" x="237.8" y="226.0" style="animation-delay:1.77s">a</text>
+<text class="t ab in" x="245.6" y="226.0" style="animation-delay:1.77s">y</text>
+<text class="t b in" x="308.0" y="226.0" style="animation-delay:1.77s">"</text>
+<text class="t b in" x="315.8" y="226.0" style="animation-delay:1.77s">e</text>
+<text class="t b in" x="323.6" y="226.0" style="animation-delay:1.77s">c</text>
+<text class="t b in" x="331.4" y="226.0" style="animation-delay:1.77s">l</text>
+<text class="t b in" x="339.2" y="226.0" style="animation-delay:1.77s">i</text>
+<text class="t b in" x="347.0" y="226.0" style="animation-delay:1.77s">p</text>
+<text class="t b in" x="354.8" y="226.0" style="animation-delay:1.77s">s</text>
+<text class="t b in" x="362.6" y="226.0" style="animation-delay:1.77s">e</text>
+<text class="t b in" x="370.4" y="226.0" style="animation-delay:1.77s">"</text>
+<text class="t ab in" x="230.0" y="246.0" style="animation-delay:1.88s">d</text>
+<text class="t ab in" x="237.8" y="246.0" style="animation-delay:1.88s">i</text>
+<text class="t ab in" x="245.6" y="246.0" style="animation-delay:1.88s">s</text>
+<text class="t ab in" x="253.4" y="246.0" style="animation-delay:1.88s">t</text>
+<text class="t ab in" x="261.2" y="246.0" style="animation-delay:1.88s">r</text>
+<text class="t ab in" x="269.0" y="246.0" style="animation-delay:1.88s">o</text>
+<text class="t b in" x="308.0" y="246.0" style="animation-delay:1.88s">a</text>
+<text class="t b in" x="315.8" y="246.0" style="animation-delay:1.88s">r</text>
+<text class="t b in" x="323.6" y="246.0" style="animation-delay:1.88s">c</text>
+<text class="t b in" x="331.4" y="246.0" style="animation-delay:1.88s">h</text>
+<text class="t b in" x="339.2" y="246.0" style="animation-delay:1.88s">,</text>
+<text class="t b in" x="354.8" y="246.0" style="animation-delay:1.88s">r</text>
+<text class="t b in" x="362.6" y="246.0" style="animation-delay:1.88s">y</text>
+<text class="t b in" x="370.4" y="246.0" style="animation-delay:1.88s">o</text>
+<text class="t b in" x="378.2" y="246.0" style="animation-delay:1.88s">k</text>
+<text class="t b in" x="386.0" y="246.0" style="animation-delay:1.88s">u</text>
+<text class="t b in" x="401.6" y="246.0" style="animation-delay:1.88s">o</text>
+<text class="t b in" x="409.4" y="246.0" style="animation-delay:1.88s">n</text>
+<text class="t b in" x="425.0" y="246.0" style="animation-delay:1.88s">t</text>
+<text class="t b in" x="432.8" y="246.0" style="animation-delay:1.88s">h</text>
+<text class="t b in" x="440.6" y="246.0" style="animation-delay:1.88s">e</text>
+<text class="t b in" x="456.2" y="246.0" style="animation-delay:1.88s">m</text>
+<text class="t b in" x="464.0" y="246.0" style="animation-delay:1.88s">i</text>
+<text class="t b in" x="471.8" y="246.0" style="animation-delay:1.88s">n</text>
+<text class="t b in" x="479.6" y="246.0" style="animation-delay:1.88s">d</text>
+<text class="t ab in" x="230.0" y="266.0" style="animation-delay:1.99s">w</text>
+<text class="t ab in" x="237.8" y="266.0" style="animation-delay:1.99s">m</text>
+<text class="t b in" x="308.0" y="266.0" style="animation-delay:1.99s">t</text>
+<text class="t b in" x="315.8" y="266.0" style="animation-delay:1.99s">i</text>
+<text class="t b in" x="323.6" y="266.0" style="animation-delay:1.99s">l</text>
+<text class="t b in" x="331.4" y="266.0" style="animation-delay:1.99s">i</text>
+<text class="t b in" x="339.2" y="266.0" style="animation-delay:1.99s">n</text>
+<text class="t b in" x="347.0" y="266.0" style="animation-delay:1.99s">g</text>
+<text class="t b in" x="354.8" y="266.0" style="animation-delay:1.99s">,</text>
+<text class="t b in" x="370.4" y="266.0" style="animation-delay:1.99s">a</text>
+<text class="t b in" x="378.2" y="266.0" style="animation-delay:1.99s">l</text>
+<text class="t b in" x="386.0" y="266.0" style="animation-delay:1.99s">w</text>
+<text class="t b in" x="393.8" y="266.0" style="animation-delay:1.99s">a</text>
+<text class="t b in" x="401.6" y="266.0" style="animation-delay:1.99s">y</text>
+<text class="t b in" x="409.4" y="266.0" style="animation-delay:1.99s">s</text>
+<text class="t ab in" x="230.0" y="286.0" style="animation-delay:2.10s">b</text>
+<text class="t ab in" x="237.8" y="286.0" style="animation-delay:2.10s">u</text>
+<text class="t ab in" x="245.6" y="286.0" style="animation-delay:2.10s">i</text>
+<text class="t ab in" x="253.4" y="286.0" style="animation-delay:2.10s">l</text>
+<text class="t ab in" x="261.2" y="286.0" style="animation-delay:2.10s">d</text>
+<text class="t ab in" x="269.0" y="286.0" style="animation-delay:2.10s">i</text>
+<text class="t ab in" x="276.8" y="286.0" style="animation-delay:2.10s">n</text>
+<text class="t ab in" x="284.6" y="286.0" style="animation-delay:2.10s">g</text>
+<text class="t b in" x="308.0" y="286.0" style="animation-delay:2.10s">h</text>
+<text class="t b in" x="315.8" y="286.0" style="animation-delay:2.10s">e</text>
+<text class="t b in" x="323.6" y="286.0" style="animation-delay:2.10s">l</text>
+<text class="t b in" x="331.4" y="286.0" style="animation-delay:2.10s">i</text>
+<text class="t b in" x="339.2" y="286.0" style="animation-delay:2.10s">x</text>
+<text class="t b in" x="354.8" y="286.0" style="animation-delay:2.10s">·</text>
+<text class="t b in" x="370.4" y="286.0" style="animation-delay:2.10s">e</text>
+<text class="t b in" x="378.2" y="286.0" style="animation-delay:2.10s">c</text>
+<text class="t b in" x="386.0" y="286.0" style="animation-delay:2.10s">l</text>
+<text class="t b in" x="393.8" y="286.0" style="animation-delay:2.10s">i</text>
+<text class="t b in" x="401.6" y="286.0" style="animation-delay:2.10s">p</text>
+<text class="t b in" x="409.4" y="286.0" style="animation-delay:2.10s">z</text>
+<text class="t b in" x="417.2" y="286.0" style="animation-delay:2.10s">.</text>
+<text class="t b in" x="425.0" y="286.0" style="animation-delay:2.10s">d</text>
+<text class="t b in" x="432.8" y="286.0" style="animation-delay:2.10s">e</text>
+<text class="t b in" x="440.6" y="286.0" style="animation-delay:2.10s">v</text>
+<text class="t b in" x="456.2" y="286.0" style="animation-delay:2.10s">·</text>
+<text class="t b in" x="471.8" y="286.0" style="animation-delay:2.10s">b</text>
+<text class="t b in" x="479.6" y="286.0" style="animation-delay:2.10s">o</text>
+<text class="t b in" x="487.4" y="286.0" style="animation-delay:2.10s">t</text>
+<text class="t b in" x="495.2" y="286.0" style="animation-delay:2.10s">t</text>
+<text class="t b in" x="503.0" y="286.0" style="animation-delay:2.10s">y</text>
+<text class="t ab in" x="230.0" y="306.0" style="animation-delay:2.21s">s</text>
+<text class="t ab in" x="237.8" y="306.0" style="animation-delay:2.21s">t</text>
+<text class="t ab in" x="245.6" y="306.0" style="animation-delay:2.21s">a</text>
+<text class="t ab in" x="253.4" y="306.0" style="animation-delay:2.21s">c</text>
+<text class="t ab in" x="261.2" y="306.0" style="animation-delay:2.21s">k</text>
+<text class="t b in" x="308.0" y="306.0" style="animation-delay:2.21s">p</text>
+<text class="t b in" x="315.8" y="306.0" style="animation-delay:2.21s">y</text>
+<text class="t b in" x="331.4" y="306.0" style="animation-delay:2.21s">j</text>
+<text class="t b in" x="339.2" y="306.0" style="animation-delay:2.21s">s</text>
+<text class="t b in" x="354.8" y="306.0" style="animation-delay:2.21s">t</text>
+<text class="t b in" x="362.6" y="306.0" style="animation-delay:2.21s">s</text>
+<text class="t b in" x="378.2" y="306.0" style="animation-delay:2.21s">h</text>
+<text class="t b in" x="386.0" y="306.0" style="animation-delay:2.21s">t</text>
+<text class="t b in" x="393.8" y="306.0" style="animation-delay:2.21s">m</text>
+<text class="t b in" x="401.6" y="306.0" style="animation-delay:2.21s">l</text>
+<text class="t b in" x="417.2" y="306.0" style="animation-delay:2.21s">c</text>
+<text class="t b in" x="425.0" y="306.0" style="animation-delay:2.21s">s</text>
+<text class="t b in" x="432.8" y="306.0" style="animation-delay:2.21s">s</text>
+<text class="t ab in" x="230.0" y="326.0" style="animation-delay:2.32s">h</text>
+<text class="t ab in" x="237.8" y="326.0" style="animation-delay:2.32s">a</text>
+<text class="t ab in" x="245.6" y="326.0" style="animation-delay:2.32s">r</text>
+<text class="t ab in" x="253.4" y="326.0" style="animation-delay:2.32s">d</text>
+<text class="t ab in" x="261.2" y="326.0" style="animation-delay:2.32s">w</text>
+<text class="t ab in" x="269.0" y="326.0" style="animation-delay:2.32s">a</text>
+<text class="t ab in" x="276.8" y="326.0" style="animation-delay:2.32s">r</text>
+<text class="t ab in" x="284.6" y="326.0" style="animation-delay:2.32s">e</text>
+<text class="t b in" x="308.0" y="326.0" style="animation-delay:2.32s">b</text>
+<text class="t b in" x="315.8" y="326.0" style="animation-delay:2.32s">u</text>
+<text class="t b in" x="323.6" y="326.0" style="animation-delay:2.32s">i</text>
+<text class="t b in" x="331.4" y="326.0" style="animation-delay:2.32s">l</text>
+<text class="t b in" x="339.2" y="326.0" style="animation-delay:2.32s">d</text>
+<text class="t b in" x="354.8" y="326.0" style="animation-delay:2.32s">·</text>
+<text class="t b in" x="370.4" y="326.0" style="animation-delay:2.32s">c</text>
+<text class="t b in" x="378.2" y="326.0" style="animation-delay:2.32s">l</text>
+<text class="t b in" x="386.0" y="326.0" style="animation-delay:2.32s">e</text>
+<text class="t b in" x="393.8" y="326.0" style="animation-delay:2.32s">a</text>
+<text class="t b in" x="401.6" y="326.0" style="animation-delay:2.32s">n</text>
+<text class="t b in" x="417.2" y="326.0" style="animation-delay:2.32s">·</text>
+<text class="t b in" x="432.8" y="326.0" style="animation-delay:2.32s">r</text>
+<text class="t b in" x="440.6" y="326.0" style="animation-delay:2.32s">e</text>
+<text class="t b in" x="448.4" y="326.0" style="animation-delay:2.32s">p</text>
+<text class="t b in" x="456.2" y="326.0" style="animation-delay:2.32s">a</text>
+<text class="t b in" x="464.0" y="326.0" style="animation-delay:2.32s">i</text>
+<text class="t b in" x="471.8" y="326.0" style="animation-delay:2.32s">r</text>
+<text class="t ab in" x="230.0" y="346.0" style="animation-delay:2.43s">s</text>
+<text class="t ab in" x="237.8" y="346.0" style="animation-delay:2.43s">h</text>
+<text class="t ab in" x="245.6" y="346.0" style="animation-delay:2.43s">e</text>
+<text class="t ab in" x="253.4" y="346.0" style="animation-delay:2.43s">l</text>
+<text class="t ab in" x="261.2" y="346.0" style="animation-delay:2.43s">l</text>
+<text class="t b in" x="308.0" y="346.0" style="animation-delay:2.43s">b</text>
+<text class="t b in" x="315.8" y="346.0" style="animation-delay:2.43s">u</text>
+<text class="t b in" x="323.6" y="346.0" style="animation-delay:2.43s">i</text>
+<text class="t b in" x="331.4" y="346.0" style="animation-delay:2.43s">l</text>
+<text class="t b in" x="339.2" y="346.0" style="animation-delay:2.43s">d</text>
+<text class="t b in" x="354.8" y="346.0" style="animation-delay:2.43s">→</text>
+<text class="t b in" x="370.4" y="346.0" style="animation-delay:2.43s">b</text>
+<text class="t b in" x="378.2" y="346.0" style="animation-delay:2.43s">r</text>
+<text class="t b in" x="386.0" y="346.0" style="animation-delay:2.43s">e</text>
+<text class="t b in" x="393.8" y="346.0" style="animation-delay:2.43s">a</text>
+<text class="t b in" x="401.6" y="346.0" style="animation-delay:2.43s">k</text>
+<text class="t b in" x="417.2" y="346.0" style="animation-delay:2.43s">→</text>
+<text class="t b in" x="432.8" y="346.0" style="animation-delay:2.43s">f</text>
+<text class="t b in" x="440.6" y="346.0" style="animation-delay:2.43s">i</text>
+<text class="t b in" x="448.4" y="346.0" style="animation-delay:2.43s">x</text>
+<text class="t ab in" x="230.0" y="366.0" style="animation-delay:2.54s">u</text>
+<text class="t ab in" x="237.8" y="366.0" style="animation-delay:2.54s">p</text>
+<text class="t ab in" x="245.6" y="366.0" style="animation-delay:2.54s">t</text>
+<text class="t ab in" x="253.4" y="366.0" style="animation-delay:2.54s">i</text>
+<text class="t ab in" x="261.2" y="366.0" style="animation-delay:2.54s">m</text>
+<text class="t ab in" x="269.0" y="366.0" style="animation-delay:2.54s">e</text>
+<text class="t b in" x="308.0" y="366.0" style="animation-delay:2.54s">s</text>
+<text class="t b in" x="315.8" y="366.0" style="animation-delay:2.54s">t</text>
+<text class="t b in" x="323.6" y="366.0" style="animation-delay:2.54s">i</text>
+<text class="t b in" x="331.4" y="366.0" style="animation-delay:2.54s">l</text>
+<text class="t b in" x="339.2" y="366.0" style="animation-delay:2.54s">l</text>
+<text class="t b in" x="354.8" y="366.0" style="animation-delay:2.54s">l</text>
+<text class="t b in" x="362.6" y="366.0" style="animation-delay:2.54s">e</text>
+<text class="t b in" x="370.4" y="366.0" style="animation-delay:2.54s">a</text>
+<text class="t b in" x="378.2" y="366.0" style="animation-delay:2.54s">r</text>
+<text class="t b in" x="386.0" y="366.0" style="animation-delay:2.54s">n</text>
+<text class="t b in" x="393.8" y="366.0" style="animation-delay:2.54s">i</text>
+<text class="t b in" x="401.6" y="366.0" style="animation-delay:2.54s">n</text>
+<text class="t b in" x="409.4" y="366.0" style="animation-delay:2.54s">g</text>
+<rect class="in" x="230" y="380" width="22" height="14" fill="#0b0b0b" stroke="#2a2826" style="animation-delay:2.65s"/>
+<rect class="in" x="256" y="380" width="22" height="14" fill="#e2342a" stroke="#2a2826" style="animation-delay:2.70s"/>
+<rect class="in" x="282" y="380" width="22" height="14" fill="#c9a227" stroke="#2a2826" style="animation-delay:2.75s"/>
+<rect class="in" x="308" y="380" width="22" height="14" fill="#6f9a4f" stroke="#2a2826" style="animation-delay:2.80s"/>
+<rect class="in" x="334" y="380" width="22" height="14" fill="#1793d1" stroke="#2a2826" style="animation-delay:2.85s"/>
+<rect class="in" x="360" y="380" width="22" height="14" fill="#8b6bb8" stroke="#2a2826" style="animation-delay:2.90s"/>
+<rect class="in" x="386" y="380" width="22" height="14" fill="#4aa6a0" stroke="#2a2826" style="animation-delay:2.95s"/>
+<rect class="in" x="412" y="380" width="22" height="14" fill="#e9e3d6" stroke="#2a2826" style="animation-delay:3.00s"/>
+<text class="t r k in" x="38.0" y="458.0" style="animation-delay:3.25s">e</text>
+<text class="t r k in" x="45.8" y="458.0" style="animation-delay:3.25s">c</text>
+<text class="t r k in" x="53.6" y="458.0" style="animation-delay:3.25s">l</text>
+<text class="t r k in" x="61.4" y="458.0" style="animation-delay:3.25s">i</text>
+<text class="t r k in" x="69.2" y="458.0" style="animation-delay:3.25s">p</text>
+<text class="t r k in" x="77.0" y="458.0" style="animation-delay:3.25s">z</text>
+<text class="t d in" x="84.8" y="458.0" style="animation-delay:3.25s">@</text>
+<text class="t d in" x="92.6" y="458.0" style="animation-delay:3.25s">a</text>
+<text class="t d in" x="100.4" y="458.0" style="animation-delay:3.25s">r</text>
+<text class="t d in" x="108.2" y="458.0" style="animation-delay:3.25s">c</text>
+<text class="t d in" x="116.0" y="458.0" style="animation-delay:3.25s">h</text>
+<text class="t ab in" x="131.6" y="458.0" style="animation-delay:3.25s">~</text>
+<text class="t ab in" x="147.2" y="458.0" style="animation-delay:3.25s">❯</text>
+<g class="in" style="animation-delay:3.25s"><rect class="cur" x="163" y="446" width="8" height="15" fill="#e9e3d6"/></g>
+<text class="nz" x="627.4" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.11s">影</text>
+<rect class="in" x="627.4" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.41s"/>
+<text class="nz" x="627.4" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.27s">|</text>
+<rect class="in" x="627.4" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.57s"/>
+<text class="nz" x="627.4" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:0.31s">力</text>
+<rect class="in" x="627.4" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.61s"/>
+<text class="nz" x="627.4" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:0.12s">\</text>
+<rect class="in" x="627.4" y="222.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.42s"/>
+<text class="nz" x="627.4" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.19s">力</text>
+<rect class="in" x="627.4" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.49s"/>
+<text class="nz" x="627.4" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.30s">;</text>
+<text class="in" x="627.4" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.60s">╚</text>
+<text class="nz" x="639.8" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.30s">?</text>
+<rect class="in" x="639.8" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.60s"/>
+<text class="nz" x="639.8" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.24s">&gt;</text>
+<rect class="in" x="639.8" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.54s"/>
+<text class="nz" x="639.8" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:0.32s">&lt;</text>
+<rect class="in" x="639.8" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.62s"/>
+<text class="nz" x="639.8" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:0.31s">$</text>
+<rect class="in" x="639.8" y="222.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.61s"/>
+<text class="nz" x="639.8" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.26s">^</text>
+<rect class="in" x="639.8" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.56s"/>
+<text class="nz" x="639.8" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.20s">^</text>
+<text class="in" x="639.8" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.50s">═</text>
+<text class="nz" x="652.2" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.26s">!</text>
+<rect class="in" x="652.2" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.56s"/>
+<text class="nz" x="652.2" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.23s">@</text>
+<text class="in" x="652.2" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.53s">╔</text>
+<text class="nz" x="652.2" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:0.23s">力</text>
+<rect class="in" x="652.2" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.53s"/>
+<text class="nz" x="652.2" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:0.36s">|</text>
+<text class="in" x="652.2" y="238.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.66s">╔</text>
+<text class="nz" x="652.2" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.30s">?</text>
+<rect class="in" x="652.2" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.60s"/>
+<text class="nz" x="652.2" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.36s">#</text>
+<text class="in" x="652.2" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.66s">═</text>
+<text class="nz" x="664.6" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.25s">&gt;</text>
+<rect class="in" x="664.6" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.55s"/>
+<text class="nz" x="664.6" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.25s">|</text>
+<text class="in" x="664.6" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.55s">═</text>
+<text class="nz" x="664.6" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:0.41s">~</text>
+<rect class="in" x="664.6" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.71s"/>
+<text class="nz" x="664.6" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:0.35s">^</text>
+<text class="in" x="664.6" y="238.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.65s">═</text>
+<text class="nz" x="664.6" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.40s">:</text>
+<rect class="in" x="664.6" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.70s"/>
+<text class="nz" x="664.6" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.26s">|</text>
+<text class="in" x="664.6" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.56s">═</text>
+<text class="nz" x="677.0" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.43s">#</text>
+<rect class="in" x="677.0" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.73s"/>
+<text class="nz" x="677.0" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.45s">影</text>
+<text class="in" x="677.0" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.75s">═</text>
+<text class="nz" x="677.0" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:0.31s">:</text>
+<rect class="in" x="677.0" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.61s"/>
+<text class="nz" x="677.0" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:0.32s">&amp;</text>
+<text class="in" x="677.0" y="238.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.62s">═</text>
+<text class="nz" x="677.0" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.28s">&lt;</text>
+<rect class="in" x="677.0" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.58s"/>
+<text class="nz" x="677.0" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.35s">#</text>
+<text class="in" x="677.0" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.65s">═</text>
+<text class="nz" x="689.4" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.28s">%</text>
+<rect class="in" x="689.4" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.58s"/>
+<text class="nz" x="689.4" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.29s">:</text>
+<text class="in" x="689.4" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.59s">═</text>
+<text class="nz" x="689.4" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:0.39s">&gt;</text>
+<text class="in" x="689.4" y="218.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.69s">╗</text>
+<text class="nz" x="689.4" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:0.26s">+</text>
+<text class="in" x="689.4" y="238.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.56s">╝</text>
+<text class="nz" x="689.4" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.42s">!</text>
+<rect class="in" x="689.4" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.72s"/>
+<text class="nz" x="689.4" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.33s">#</text>
+<text class="in" x="689.4" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.63s">═</text>
+<text class="nz" x="701.8" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.39s">&gt;</text>
+<rect class="in" x="701.8" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.69s"/>
+<text class="nz" x="701.8" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.47s">|</text>
+<text class="in" x="701.8" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.77s">═</text>
+<text class="nz" x="701.8" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.32s">;</text>
+<rect class="in" x="701.8" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.62s"/>
+<text class="nz" x="701.8" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.34s">?</text>
+<text class="in" x="701.8" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.64s">═</text>
+<text class="nz" x="714.2" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.33s">/</text>
+<text class="in" x="714.2" y="178.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.63s">╗</text>
+<text class="nz" x="714.2" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.39s">~</text>
+<text class="in" x="714.2" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.69s">╝</text>
+<text class="nz" x="714.2" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.36s">~</text>
+<text class="in" x="714.2" y="258.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.66s">╗</text>
+<text class="nz" x="714.2" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.52s">*</text>
+<text class="in" x="714.2" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.82s">╝</text>
+<text class="nz" x="726.6" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.42s">@</text>
+<rect class="in" x="726.6" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.72s"/>
+<text class="nz" x="726.6" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:0.40s">\</text>
+<rect class="in" x="726.6" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.70s"/>
+<text class="nz" x="726.6" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:0.55s">!</text>
+<rect class="in" x="726.6" y="222.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.85s"/>
+<text class="nz" x="726.6" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.39s">:</text>
+<text class="in" x="726.6" y="258.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.69s">╚</text>
+<text class="nz" x="739.0" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.43s">光</text>
+<rect class="in" x="739.0" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.73s"/>
+<text class="nz" x="739.0" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.44s">@</text>
+<rect class="in" x="739.0" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.74s"/>
+<text class="nz" x="739.0" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:0.53s">?</text>
+<rect class="in" x="739.0" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.83s"/>
+<text class="nz" x="739.0" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:0.55s">/</text>
+<rect class="in" x="739.0" y="222.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.85s"/>
+<text class="nz" x="739.0" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.60s">=</text>
+<rect class="in" x="739.0" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.90s"/>
+<text class="nz" x="739.0" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.58s">%</text>
+<text class="in" x="739.0" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.88s">╚</text>
+<text class="nz" x="751.4" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.49s">&gt;</text>
+<rect class="in" x="751.4" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.79s"/>
+<text class="nz" x="751.4" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.51s">&amp;</text>
+<text class="in" x="751.4" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.81s">╔</text>
+<text class="nz" x="751.4" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:0.47s">?</text>
+<text class="in" x="751.4" y="218.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.77s">║</text>
+<text class="nz" x="751.4" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:0.45s">*</text>
+<text class="in" x="751.4" y="238.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.75s">║</text>
+<text class="nz" x="751.4" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.48s">+</text>
+<rect class="in" x="751.4" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.78s"/>
+<text class="nz" x="751.4" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.53s">?</text>
+<text class="in" x="751.4" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.83s">═</text>
+<text class="nz" x="763.8" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.63s">\</text>
+<rect class="in" x="763.8" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.93s"/>
+<text class="nz" x="763.8" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.63s">^</text>
+<text class="in" x="763.8" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.93s">═</text>
+<text class="nz" x="763.8" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.65s">;</text>
+<rect class="in" x="763.8" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.95s"/>
+<text class="nz" x="763.8" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.57s">?</text>
+<text class="in" x="763.8" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.87s">═</text>
+<text class="nz" x="776.2" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.68s">&amp;</text>
+<rect class="in" x="776.2" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.98s"/>
+<text class="nz" x="776.2" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.63s">=</text>
+<text class="in" x="776.2" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.93s">═</text>
+<text class="nz" x="776.2" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.51s">影</text>
+<rect class="in" x="776.2" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.81s"/>
+<text class="nz" x="776.2" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.50s">#</text>
+<text class="in" x="776.2" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.80s">═</text>
+<text class="nz" x="788.6" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.61s">^</text>
+<rect class="in" x="788.6" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.91s"/>
+<text class="nz" x="788.6" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.53s">@</text>
+<text class="in" x="788.6" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.83s">═</text>
+<text class="nz" x="788.6" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.52s">;</text>
+<rect class="in" x="788.6" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.82s"/>
+<text class="nz" x="788.6" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.58s">=</text>
+<text class="in" x="788.6" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.88s">═</text>
+<text class="nz" x="801.0" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.64s">;</text>
+<rect class="in" x="801.0" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.94s"/>
+<text class="nz" x="801.0" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.57s">?</text>
+<text class="in" x="801.0" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.87s">═</text>
+<text class="nz" x="801.0" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.77s">*</text>
+<rect class="in" x="801.0" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.07s"/>
+<text class="nz" x="801.0" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.60s">=</text>
+<text class="in" x="801.0" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.90s">═</text>
+<text class="nz" x="813.4" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.74s">!</text>
+<text class="in" x="813.4" y="178.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.04s">╗</text>
+<text class="nz" x="813.4" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.62s">%</text>
+<text class="in" x="813.4" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.92s">╝</text>
+<text class="nz" x="813.4" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.80s">@</text>
+<text class="in" x="813.4" y="258.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.10s">╗</text>
+<text class="nz" x="813.4" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.72s">;</text>
+<text class="in" x="813.4" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.02s">╝</text>
+<text class="nz" x="825.8" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.70s">~</text>
+<rect class="in" x="825.8" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.00s"/>
+<text class="nz" x="825.8" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.63s">#</text>
+<rect class="in" x="825.8" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.93s"/>
+<text class="nz" x="825.8" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:0.73s">光</text>
+<rect class="in" x="825.8" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.03s"/>
+<text class="nz" x="825.8" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:0.81s">/</text>
+<rect class="in" x="825.8" y="222.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.11s"/>
+<text class="nz" x="825.8" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.76s">@</text>
+<rect class="in" x="825.8" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.06s"/>
+<text class="nz" x="825.8" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.73s">^</text>
+<text class="in" x="825.8" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.03s">╚</text>
+<text class="nz" x="838.2" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.83s">光</text>
+<rect class="in" x="838.2" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.13s"/>
+<text class="nz" x="838.2" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.79s">^</text>
+<rect class="in" x="838.2" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.09s"/>
+<text class="nz" x="838.2" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:0.81s">:</text>
+<rect class="in" x="838.2" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.11s"/>
+<text class="nz" x="838.2" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:0.68s">&amp;</text>
+<rect class="in" x="838.2" y="222.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.98s"/>
+<text class="nz" x="838.2" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.67s">&lt;</text>
+<rect class="in" x="838.2" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:0.97s"/>
+<text class="nz" x="838.2" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.70s">&gt;</text>
+<text class="in" x="838.2" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.00s">═</text>
+<text class="nz" x="850.6" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.80s">=</text>
+<text class="in" x="850.6" y="178.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.10s">╗</text>
+<text class="nz" x="850.6" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.85s">+</text>
+<text class="in" x="850.6" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.15s">║</text>
+<text class="nz" x="850.6" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:0.73s">:</text>
+<text class="in" x="850.6" y="218.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.03s">║</text>
+<text class="nz" x="850.6" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:0.72s">;</text>
+<text class="in" x="850.6" y="238.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.02s">║</text>
+<text class="nz" x="850.6" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.81s">=</text>
+<rect class="in" x="850.6" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.11s"/>
+<text class="nz" x="850.6" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.68s">力</text>
+<text class="in" x="850.6" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:0.98s">═</text>
+<text class="nz" x="863.0" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.92s">@</text>
+<rect class="in" x="863.0" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.22s"/>
+<text class="nz" x="863.0" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.83s">&amp;</text>
+<text class="in" x="863.0" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.13s">═</text>
+<text class="nz" x="875.4" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.81s">力</text>
+<rect class="in" x="875.4" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.11s"/>
+<text class="nz" x="875.4" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.74s">~</text>
+<text class="in" x="875.4" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.04s">═</text>
+<text class="nz" x="887.8" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.95s">^</text>
+<rect class="in" x="887.8" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.25s"/>
+<text class="nz" x="887.8" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.87s">=</text>
+<text class="in" x="887.8" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.17s">═</text>
+<text class="nz" x="900.2" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.99s">!</text>
+<rect class="in" x="900.2" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.29s"/>
+<text class="nz" x="900.2" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.82s">&amp;</text>
+<text class="in" x="900.2" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.12s">═</text>
+<text class="nz" x="912.6" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.96s">:</text>
+<text class="in" x="912.6" y="258.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.26s">╗</text>
+<text class="nz" x="912.6" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.96s">+</text>
+<text class="in" x="912.6" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.26s">╝</text>
+<text class="nz" x="925.0" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.01s">@</text>
+<rect class="in" x="925.0" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.31s"/>
+<text class="nz" x="925.0" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.94s">@</text>
+<rect class="in" x="925.0" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.24s"/>
+<text class="nz" x="925.0" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.02s">力</text>
+<rect class="in" x="925.0" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.32s"/>
+<text class="nz" x="925.0" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.03s">=</text>
+<rect class="in" x="925.0" y="222.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.33s"/>
+<text class="nz" x="925.0" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:1.04s">~</text>
+<rect class="in" x="925.0" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.34s"/>
+<text class="nz" x="925.0" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.89s">^</text>
+<text class="in" x="925.0" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.19s">╚</text>
+<text class="nz" x="937.4" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:0.94s">=</text>
+<rect class="in" x="937.4" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.24s"/>
+<text class="nz" x="937.4" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.95s">~</text>
+<rect class="in" x="937.4" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.25s"/>
+<text class="nz" x="937.4" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.05s">力</text>
+<rect class="in" x="937.4" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.35s"/>
+<text class="nz" x="937.4" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.07s">@</text>
+<rect class="in" x="937.4" y="222.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.37s"/>
+<text class="nz" x="937.4" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:0.97s">&gt;</text>
+<rect class="in" x="937.4" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.27s"/>
+<text class="nz" x="937.4" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.98s">*</text>
+<text class="in" x="937.4" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.28s">═</text>
+<text class="nz" x="949.8" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.09s">@</text>
+<text class="in" x="949.8" y="178.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.39s">╗</text>
+<text class="nz" x="949.8" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.96s">力</text>
+<text class="in" x="949.8" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.26s">║</text>
+<text class="nz" x="949.8" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.15s">%</text>
+<text class="in" x="949.8" y="218.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.45s">║</text>
+<text class="nz" x="949.8" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.10s">^</text>
+<text class="in" x="949.8" y="238.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.40s">║</text>
+<text class="nz" x="949.8" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:1.10s">@</text>
+<text class="in" x="949.8" y="258.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.40s">║</text>
+<text class="nz" x="949.8" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:0.93s">&lt;</text>
+<text class="in" x="949.8" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.23s">╝</text>
+<text class="nz" x="962.2" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.16s">%</text>
+<rect class="in" x="962.2" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.46s"/>
+<text class="nz" x="962.2" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:0.98s">:</text>
+<rect class="in" x="962.2" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.28s"/>
+<text class="nz" x="962.2" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.03s">&lt;</text>
+<rect class="in" x="962.2" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.33s"/>
+<text class="nz" x="962.2" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.17s">@</text>
+<rect class="in" x="962.2" y="222.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.47s"/>
+<text class="nz" x="962.2" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:1.11s">力</text>
+<rect class="in" x="962.2" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.41s"/>
+<text class="nz" x="962.2" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:1.01s">=</text>
+<text class="in" x="962.2" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.31s">╚</text>
+<text class="nz" x="974.6" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.02s">+</text>
+<rect class="in" x="974.6" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.32s"/>
+<text class="nz" x="974.6" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.09s">#</text>
+<rect class="in" x="974.6" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.39s"/>
+<text class="nz" x="974.6" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.20s">\</text>
+<rect class="in" x="974.6" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.50s"/>
+<text class="nz" x="974.6" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.06s">力</text>
+<rect class="in" x="974.6" y="222.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.36s"/>
+<text class="nz" x="974.6" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:1.04s">&amp;</text>
+<rect class="in" x="974.6" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.34s"/>
+<text class="nz" x="974.6" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:1.08s">光</text>
+<text class="in" x="974.6" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.38s">═</text>
+<text class="nz" x="987.0" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.25s">/</text>
+<rect class="in" x="987.0" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.55s"/>
+<text class="nz" x="987.0" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.15s">;</text>
+<text class="in" x="987.0" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.45s">╔</text>
+<text class="nz" x="987.0" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.23s">&amp;</text>
+<rect class="in" x="987.0" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.53s"/>
+<text class="nz" x="987.0" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.13s">|</text>
+<text class="in" x="987.0" y="238.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.43s">╔</text>
+<text class="nz" x="987.0" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:1.23s">*</text>
+<text class="in" x="987.0" y="258.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.53s">║</text>
+<text class="nz" x="987.0" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:1.11s">@</text>
+<text class="in" x="987.0" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.41s">╝</text>
+<text class="nz" x="999.4" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.11s">\</text>
+<rect class="in" x="999.4" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.41s"/>
+<text class="nz" x="999.4" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.11s">:</text>
+<text class="in" x="999.4" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.41s">═</text>
+<text class="nz" x="999.4" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.24s">~</text>
+<rect class="in" x="999.4" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.54s"/>
+<text class="nz" x="999.4" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.10s">*</text>
+<text class="in" x="999.4" y="238.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.40s">═</text>
+<text class="nz" x="1011.8" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.22s">?</text>
+<rect class="in" x="1011.8" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.52s"/>
+<text class="nz" x="1011.8" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.20s">~</text>
+<text class="in" x="1011.8" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.50s">═</text>
+<text class="nz" x="1011.8" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.31s">影</text>
+<rect class="in" x="1011.8" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.61s"/>
+<text class="nz" x="1011.8" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.13s">~</text>
+<text class="in" x="1011.8" y="238.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.43s">═</text>
+<text class="nz" x="1024.2" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.17s">|</text>
+<rect class="in" x="1024.2" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.47s"/>
+<text class="nz" x="1024.2" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.22s">@</text>
+<rect class="in" x="1024.2" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.52s"/>
+<text class="nz" x="1024.2" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.28s">\</text>
+<rect class="in" x="1024.2" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.58s"/>
+<text class="nz" x="1024.2" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.33s">力</text>
+<text class="in" x="1024.2" y="238.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.63s">═</text>
+<text class="nz" x="1036.6" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.16s">&amp;</text>
+<text class="in" x="1036.6" y="178.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.46s">╗</text>
+<text class="nz" x="1036.6" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.32s">^</text>
+<rect class="in" x="1036.6" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.62s"/>
+<text class="nz" x="1036.6" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.24s">光</text>
+<text class="in" x="1036.6" y="218.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.54s">╔</text>
+<text class="nz" x="1036.6" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.31s">=</text>
+<text class="in" x="1036.6" y="238.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.61s">╝</text>
+<text class="nz" x="1049.0" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.21s">@</text>
+<text class="in" x="1049.0" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.51s">╗</text>
+<text class="nz" x="1049.0" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.22s">\</text>
+<text class="in" x="1049.0" y="218.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.52s">╝</text>
+<text class="nz" x="1061.4" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.25s">+</text>
+<rect class="in" x="1061.4" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.55s"/>
+<text class="nz" x="1061.4" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.38s">$</text>
+<text class="in" x="1061.4" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.68s">╚</text>
+<text class="nz" x="1061.4" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:1.22s">/</text>
+<rect class="in" x="1061.4" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.52s"/>
+<text class="nz" x="1061.4" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:1.40s">&gt;</text>
+<text class="in" x="1061.4" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.70s">╚</text>
+<text class="nz" x="1073.8" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.27s">|</text>
+<rect class="in" x="1073.8" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.57s"/>
+<text class="nz" x="1073.8" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.32s">^</text>
+<text class="in" x="1073.8" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.62s">═</text>
+<text class="nz" x="1073.8" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.40s">?</text>
+<rect class="in" x="1073.8" y="222.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.70s"/>
+<text class="nz" x="1073.8" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:1.34s">+</text>
+<rect class="in" x="1073.8" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.64s"/>
+<text class="nz" x="1073.8" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:1.36s">*</text>
+<text class="in" x="1073.8" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.66s">═</text>
+<text class="nz" x="1086.2" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.32s">力</text>
+<rect class="in" x="1086.2" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.62s"/>
+<text class="nz" x="1086.2" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.31s">*</text>
+<text class="in" x="1086.2" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.61s">═</text>
+<text class="nz" x="1086.2" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.35s">&lt;</text>
+<rect class="in" x="1086.2" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.65s"/>
+<text class="nz" x="1086.2" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.39s">%</text>
+<rect class="in" x="1086.2" y="222.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.69s"/>
+<text class="nz" x="1086.2" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:1.40s">:</text>
+<rect class="in" x="1086.2" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.70s"/>
+<text class="nz" x="1086.2" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:1.34s">&gt;</text>
+<text class="in" x="1086.2" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.64s">═</text>
+<text class="nz" x="1098.6" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.46s">%</text>
+<rect class="in" x="1098.6" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.76s"/>
+<text class="nz" x="1098.6" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.51s">=</text>
+<rect class="in" x="1098.6" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.81s"/>
+<text class="nz" x="1098.6" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.43s">&gt;</text>
+<rect class="in" x="1098.6" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.73s"/>
+<text class="nz" x="1098.6" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.41s">|</text>
+<rect class="in" x="1098.6" y="222.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.71s"/>
+<text class="nz" x="1098.6" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:1.43s">\</text>
+<rect class="in" x="1098.6" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.73s"/>
+<text class="nz" x="1098.6" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:1.37s">?</text>
+<text class="in" x="1098.6" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.67s">═</text>
+<text class="nz" x="1111.0" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.43s">力</text>
+<rect class="in" x="1111.0" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.73s"/>
+<text class="nz" x="1111.0" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.40s">@</text>
+<rect class="in" x="1111.0" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.70s"/>
+<text class="nz" x="1111.0" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.53s">光</text>
+<rect class="in" x="1111.0" y="202.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.83s"/>
+<text class="nz" x="1111.0" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.45s">!</text>
+<text class="in" x="1111.0" y="238.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.75s">╔</text>
+<text class="nz" x="1111.0" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:1.53s">?</text>
+<rect class="in" x="1111.0" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.83s"/>
+<text class="nz" x="1111.0" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:1.49s">#</text>
+<text class="in" x="1111.0" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.79s">═</text>
+<text class="nz" x="1123.4" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.58s">*</text>
+<rect class="in" x="1123.4" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.88s"/>
+<text class="nz" x="1123.4" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.50s">\</text>
+<rect class="in" x="1123.4" y="182.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.80s"/>
+<text class="nz" x="1123.4" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.53s">\</text>
+<text class="in" x="1123.4" y="218.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.83s">╔</text>
+<text class="nz" x="1123.4" y="238.0" style="font-size:17px;fill:#e2342a;animation-delay:1.43s">光</text>
+<text class="in" x="1123.4" y="238.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.73s">╝</text>
+<text class="nz" x="1123.4" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:1.44s">&lt;</text>
+<rect class="in" x="1123.4" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.74s"/>
+<text class="nz" x="1123.4" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:1.41s">~</text>
+<text class="in" x="1123.4" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.71s">═</text>
+<text class="nz" x="1135.8" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.43s">|</text>
+<rect class="in" x="1135.8" y="162.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.73s"/>
+<text class="nz" x="1135.8" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.62s">?</text>
+<text class="in" x="1135.8" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.92s">╔</text>
+<text class="nz" x="1135.8" y="218.0" style="font-size:17px;fill:#e2342a;animation-delay:1.52s">=</text>
+<text class="in" x="1135.8" y="218.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.82s">╝</text>
+<text class="nz" x="1135.8" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:1.46s">|</text>
+<rect class="in" x="1135.8" y="242.0" width="12.8" height="20.4" fill="#e9e3d6" style="animation-delay:1.76s"/>
+<text class="nz" x="1135.8" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:1.46s">&amp;</text>
+<text class="in" x="1135.8" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.76s">═</text>
+<text class="nz" x="1148.2" y="178.0" style="font-size:17px;fill:#e2342a;animation-delay:1.52s">+</text>
+<text class="in" x="1148.2" y="178.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.82s">╗</text>
+<text class="nz" x="1148.2" y="198.0" style="font-size:17px;fill:#e2342a;animation-delay:1.56s">/</text>
+<text class="in" x="1148.2" y="198.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.86s">╝</text>
+<text class="nz" x="1148.2" y="258.0" style="font-size:17px;fill:#e2342a;animation-delay:1.64s">%</text>
+<text class="in" x="1148.2" y="258.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.94s">╗</text>
+<text class="nz" x="1148.2" y="278.0" style="font-size:17px;fill:#e2342a;animation-delay:1.55s">=</text>
+<text class="in" x="1148.2" y="278.0" style="font-size:18px;fill:#e2342a;opacity:0;animation-delay:1.85s">╝</text>
+<g class="in" style="animation-delay:2.08s"><use href="#wm" style="fill:#e9e3d6"/></g>
+<g mask="url(#wmm)"><rect class="sw" x="497.4" y="162" width="130" height="120" fill="url(#shg)" opacity=".5"/></g>
+<g clip-path="url(#g1)"><g class="gl"><use href="#wm" style="fill:#e2342a"/></g></g>
+<g clip-path="url(#g2)"><g class="gl" style="animation-delay:4.15s"><use href="#wm" style="fill:#1793d1"/></g></g>
+<text class="jp in k" x="894.0" y="326" text-anchor="middle" style="font-size:22px;fill:#e9e3d6;letter-spacing:6px;animation-delay:2.2s">光と影のあいだで</text>
+<text class="in" x="894.0" y="350" text-anchor="middle" style="font-size:13px;fill:#77716a;letter-spacing:2px;animation-delay:2.4s">between light and shadow</text>
+<text class="t ab" x="632.0" y="410.0">❯</text>
+<text class="t" x="647.6" y="410">c</text>
+<text class="t" x="655.4" y="410">a</text>
+<text class="t" x="663.2" y="410">t</text>
+<text class="t" x="678.8" y="410">~</text>
+<text class="t" x="686.6" y="410">/</text>
+<text class="t" x="694.4" y="410">n</text>
+<text class="t" x="702.2" y="410">o</text>
+<text class="t" x="710.0" y="410">w</text>
+<clipPath id="ty2"><rect x="645.6" y="396" width="74" height="19"/></clipPath>
+<g clip-path="url(#ty2)"><rect class="ty" x="645.6" y="396" width="74" height="19" fill="#121212" style="--n:9;--w:74px;animation-duration:0.56s;animation-delay:2.80s"/></g>
+<text class="t r" x="632.0" y="432">→</text>
+<text class="t b" x="647.6" y="432">s</text>
+<text class="t b" x="655.4" y="432">h</text>
+<text class="t b" x="663.2" y="432">i</text>
+<text class="t b" x="671.0" y="432">p</text>
+<text class="t b" x="678.8" y="432">p</text>
+<text class="t b" x="686.6" y="432">i</text>
+<text class="t b" x="694.4" y="432">n</text>
+<text class="t b" x="702.2" y="432">g</text>
+<text class="t b" x="717.8" y="432">h</text>
+<text class="t b" x="725.6" y="432">e</text>
+<text class="t b" x="733.4" y="432">l</text>
+<text class="t b" x="741.2" y="432">i</text>
+<text class="t b" x="749.0" y="432">x</text>
+<text class="t b" x="756.8" y="432">,</text>
+<text class="t b" x="772.4" y="432">a</text>
+<text class="t b" x="788.0" y="432">g</text>
+<text class="t b" x="795.8" y="432">e</text>
+<text class="t b" x="803.6" y="432">c</text>
+<text class="t b" x="811.4" y="432">k</text>
+<text class="t b" x="819.2" y="432">o</text>
+<text class="t b" x="827.0" y="432">-</text>
+<text class="t b" x="834.8" y="432">b</text>
+<text class="t b" x="842.6" y="432">a</text>
+<text class="t b" x="850.4" y="432">s</text>
+<text class="t b" x="858.2" y="432">e</text>
+<text class="t b" x="866.0" y="432">d</text>
+<text class="t b" x="881.6" y="432">b</text>
+<text class="t b" x="889.4" y="432">r</text>
+<text class="t b" x="897.2" y="432">o</text>
+<text class="t b" x="905.0" y="432">w</text>
+<text class="t b" x="912.8" y="432">s</text>
+<text class="t b" x="920.6" y="432">e</text>
+<text class="t b" x="928.4" y="432">r</text>
+<clipPath id="ty3"><rect x="630" y="418" width="308" height="19"/></clipPath>
+<g clip-path="url(#ty3)"><rect class="ty" x="630" y="418" width="308" height="19" fill="#121212" style="--n:39;--w:308px;animation-duration:0.97s;animation-delay:3.56s"/></g>
+<text class="t r" x="632.0" y="454">→</text>
+<text class="t b" x="647.6" y="454">r</text>
+<text class="t b" x="655.4" y="454">e</text>
+<text class="t b" x="663.2" y="454">b</text>
+<text class="t b" x="671.0" y="454">u</text>
+<text class="t b" x="678.8" y="454">i</text>
+<text class="t b" x="686.6" y="454">l</text>
+<text class="t b" x="694.4" y="454">d</text>
+<text class="t b" x="702.2" y="454">i</text>
+<text class="t b" x="710.0" y="454">n</text>
+<text class="t b" x="717.8" y="454">g</text>
+<text class="t b" x="733.4" y="454">e</text>
+<text class="t b" x="741.2" y="454">c</text>
+<text class="t b" x="749.0" y="454">l</text>
+<text class="t b" x="756.8" y="454">i</text>
+<text class="t b" x="764.6" y="454">p</text>
+<text class="t b" x="772.4" y="454">z</text>
+<text class="t b" x="780.2" y="454">.</text>
+<text class="t b" x="788.0" y="454">d</text>
+<text class="t b" x="795.8" y="454">e</text>
+<text class="t b" x="803.6" y="454">v</text>
+<text class="t b" x="819.2" y="454">o</text>
+<text class="t b" x="827.0" y="454">n</text>
+<text class="t b" x="834.8" y="454">e</text>
+<text class="t b" x="850.4" y="454">p</text>
+<text class="t b" x="858.2" y="454">a</text>
+<text class="t b" x="866.0" y="454">g</text>
+<text class="t b" x="873.8" y="454">e</text>
+<text class="t b" x="889.4" y="454">a</text>
+<text class="t b" x="897.2" y="454">t</text>
+<text class="t b" x="912.8" y="454">a</text>
+<text class="t b" x="928.4" y="454">t</text>
+<text class="t b" x="936.2" y="454">i</text>
+<text class="t b" x="944.0" y="454">m</text>
+<text class="t b" x="951.8" y="454">e</text>
+<clipPath id="ty4"><rect x="630" y="440" width="332" height="19"/></clipPath>
+<g clip-path="url(#ty4)"><rect class="ty" x="630" y="440" width="332" height="19" fill="#121212" style="--n:42;--w:332px;animation-duration:1.05s;animation-delay:4.66s"/></g>
+<rect width="1200" height="500" fill="url(#grain)"/>
+</g>
+<rect x=".5" y=".5" width="1199" height="499" rx="16" fill="none" stroke="#1e1c1a"/>
+</svg>
