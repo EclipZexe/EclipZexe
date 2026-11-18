@@ -56,7 +56,7 @@ rebuilding eclipz.dev one page at a time
 | 蝕 | **[eclipz.dev](https://eclipz.dev)** | My corner of the internet. A hand-built static site with a 3D island menu, live music stats, a guest wall and weather. No framework. | `live` |
 | 螺 | **Helix** | A performance-first desktop browser on Firefox's Gecko engine: built-in uBlock Origin, Chrome Web Store and Edge Add-ons support, and a calm 3D homepage. | `private · building` |
 | 守 | **[Botty](https://github.com/EclipZexe/botty)** | An all-in-one Discord bot: tiered join verification, moderation, themed server templates and a web dashboard. | `docs` |
-| 書 | **[Vesper](https://github.com/EclipZexe/Vesper)** | A reference write-up on Claude Code: what it can do, how you extend it, and where it's heading. | `wip` |
+| 飾 | **[Vesper](https://github.com/EclipZexe/Vesper)** | A Windows ricing tool for theming and customising the desktop. I gave up on it, but it's where my love of riced setups started. | `shelved` |
 
 ## Day to day
 
